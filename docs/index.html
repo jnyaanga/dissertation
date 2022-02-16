@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Mechanisms of Larval Growth Control in Caenorhabditis elegans</title>
+  <meta name="description" content="J.Nyaanga PhD Dissertation" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Mechanisms of Larval Growth Control in Caenorhabditis elegans" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/img/NU_seal.png" />
+  <meta property="og:description" content="J.Nyaanga PhD Dissertation" />
+  <meta name="github-repo" content="jnyaanga" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mechanisms of Larval Growth Control in Caenorhabditis elegans" />
+  
+  <meta name="twitter:description" content="J.Nyaanga PhD Dissertation" />
+  <meta name="twitter:image" content="/img/NU_seal.png" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="acknowledgements.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="">J.Nyaanga Dissertation</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#Section1.1"><i class="fa fa-check"></i><b>1.1</b> Phenotypic variation</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#from-genotype-to-phenotype"><i class="fa fa-check"></i><b>1.1.1</b> From genotype to phenotype</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#Section1.2"><i class="fa fa-check"></i><b>1.2</b> Quantitative trait loci mapping</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#Section1.3"><i class="fa fa-check"></i><b>1.3</b> <em>Caenorhabditis elegans</em></a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="introduction.html"><a href="introduction.html#as-a-model-organism"><i class="fa fa-check"></i><b>1.3.1</b> As a model organism</a></li>
+<li class="chapter" data-level="1.3.2" data-path="introduction.html"><a href="introduction.html#post-embryonic-development"><i class="fa fa-check"></i><b>1.3.2</b> Post-embryonic development</a></li>
+<li class="chapter" data-level="1.3.3" data-path="introduction.html"><a href="introduction.html#growth-regulation"><i class="fa fa-check"></i><b>1.3.3</b> Growth regulation</a></li>
+<li class="chapter" data-level="1.3.4" data-path="introduction.html"><a href="introduction.html#natural-genetic-variation"><i class="fa fa-check"></i><b>1.3.4</b> Natural genetic variation</a></li>
+<li class="chapter" data-level="1.3.5" data-path="introduction.html"><a href="introduction.html#linkage-mapping"><i class="fa fa-check"></i><b>1.3.5</b> Linkage mapping</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><i class="fa fa-check"></i><b>2</b> A role for cuticle stretch in developmental growth control</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#preface"><i class="fa fa-check"></i><b>2.1</b> Preface</a></li>
+<li class="chapter" data-level="2.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#abstract-1"><i class="fa fa-check"></i><b>2.2</b> Abstract</a></li>
+<li class="chapter" data-level="2.3" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#introduction-1"><i class="fa fa-check"></i><b>2.3</b> Introduction</a></li>
+<li class="chapter" data-level="2.4" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#materials-and-methods"><i class="fa fa-check"></i><b>2.4</b> Materials and methods</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#worm-culture"><i class="fa fa-check"></i><b>2.4.1</b> Worm culture</a></li>
+<li class="chapter" data-level="2.4.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#bacterial-food"><i class="fa fa-check"></i><b>2.4.2</b> Bacterial food</a></li>
+<li class="chapter" data-level="2.4.3" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#growth-of-the-animals"><i class="fa fa-check"></i><b>2.4.3</b> Growth of the animals</a></li>
+<li class="chapter" data-level="2.4.4" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#high-throughput-measurements-of-body-size-and-fluorescence"><i class="fa fa-check"></i><b>2.4.4</b> High-throughput measurements of body size and fluorescence</a></li>
+<li class="chapter" data-level="2.4.5" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#image-processing"><i class="fa fa-check"></i><b>2.4.5</b> Image processing</a></li>
+<li class="chapter" data-level="2.4.6" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#data-processing"><i class="fa fa-check"></i><b>2.4.6</b> Data processing</a></li>
+<li class="chapter" data-level="2.4.7" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#molt-analysis"><i class="fa fa-check"></i><b>2.4.7</b> Molt analysis</a></li>
+<li class="chapter" data-level="2.4.8" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#comparison-of-model-fits"><i class="fa fa-check"></i><b>2.4.8</b> Comparison of model fits</a></li>
+<li class="chapter" data-level="2.4.9" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#stretcher-model-analysis"><i class="fa fa-check"></i><b>2.4.9</b> Stretcher model analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#results"><i class="fa fa-check"></i><b>2.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#quantitative-measurements-of-c.-elegans-growth"><i class="fa fa-check"></i><b>2.5.1</b> Quantitative measurements of <em>C. elegans</em> growth</a></li>
+<li class="chapter" data-level="2.5.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#fluorescence-provides-a-quantitative-measurement-of-animal-feeding-behavior-and-developmental-progression"><i class="fa fa-check"></i><b>2.5.2</b> Fluorescence <strong>provides a quantitative measurement of animal feeding behavior and developmental progression</strong></a></li>
+<li class="chapter" data-level="2.5.3" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#changes-in-c.-elegans-body-shape-occur-at-larval-stage-transitions"><i class="fa fa-check"></i><b>2.5.3</b> Changes in <em>C. elegans</em> body shape occur at larval-stage transitions</a></li>
+<li class="chapter" data-level="2.5.4" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#modeling-c.-elegans-cuticle-stretch-dynamics"><i class="fa fa-check"></i><b>2.5.4</b> Modeling <em>C. elegans</em> cuticle stretch dynamics</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#discussion"><i class="fa fa-check"></i><b>2.6</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#a-potential-role-for-cuticle-stretch-in-the-timing-of-larval-stage-transitions"><i class="fa fa-check"></i><b>2.6.1</b> A potential role for cuticle stretch in the timing of larval-stage transitions</a></li>
+<li class="chapter" data-level="2.6.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#development-comprises-complex-interactions-of-growth-regulation-across-diverse-scales"><i class="fa fa-check"></i><b>2.6.2</b> Development comprises complex interactions of growth regulation across diverse scales</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#contributions"><i class="fa fa-check"></i><b>2.7</b> Contributions</a></li>
+<li class="chapter" data-level="2.8" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#supplement"><i class="fa fa-check"></i><b>2.8</b> Supplement</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><i class="fa fa-check"></i><b>3</b> Linkage mapping reveals loci that underlie differences in <em>C. elegans</em> body growth</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#preface-1"><i class="fa fa-check"></i><b>3.1</b> Preface</a></li>
+<li class="chapter" data-level="3.2" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#abstract-2"><i class="fa fa-check"></i><b>3.2</b> Abstract</a></li>
+<li class="chapter" data-level="3.3" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#introduction-2"><i class="fa fa-check"></i><b>3.3</b> Introduction</a></li>
+<li class="chapter" data-level="3.4" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#materials-and-methods-1"><i class="fa fa-check"></i><b>3.4</b> Materials and methods</a></li>
+<li class="chapter" data-level="3.5" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#results-1"><i class="fa fa-check"></i><b>3.5</b> Results</a></li>
+<li class="chapter" data-level="3.6" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#discussion-1"><i class="fa fa-check"></i><b>3.6</b> Discussion</a></li>
+<li class="chapter" data-level="3.7" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#future-directions"><i class="fa fa-check"></i><b>3.7</b> Future directions</a></li>
+<li class="chapter" data-level="3.8" data-path="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html"><a href="linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth.html#contributions-1"><i class="fa fa-check"></i><b>3.8</b> Contributions</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><i class="fa fa-check"></i><b>4</b> easyXpress: An R package to analyze and visualize <em>C. elegans</em> microscopy data generated using CellProfiler</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#preface-2"><i class="fa fa-check"></i><b>4.1</b> Preface</a></li>
+<li class="chapter" data-level="4.2" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#abstract-3"><i class="fa fa-check"></i><b>4.2</b> Abstract</a></li>
+<li class="chapter" data-level="4.3" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#introduction-3"><i class="fa fa-check"></i><b>4.3</b> Introduction</a></li>
+<li class="chapter" data-level="4.4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#materials-and-methods-2"><i class="fa fa-check"></i><b>4.4</b> Materials and methods</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#preparation-of-animals-for-imaging"><i class="fa fa-check"></i><b>4.4.1</b> Preparation of animals for imaging</a></li>
+<li class="chapter" data-level="4.4.2" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#imaging"><i class="fa fa-check"></i><b>4.4.2</b> Imaging</a></li>
+<li class="chapter" data-level="4.4.3" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#paraquat-dose-response"><i class="fa fa-check"></i><b>4.4.3</b> Paraquat dose response</a></li>
+<li class="chapter" data-level="4.4.4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#naming-conventions"><i class="fa fa-check"></i><b>4.4.4</b> Naming conventions</a></li>
+<li class="chapter" data-level="4.4.5" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#data-availability"><i class="fa fa-check"></i><b>4.4.5</b> Data availability</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#results-2"><i class="fa fa-check"></i><b>4.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#design-and-implementation"><i class="fa fa-check"></i><b>4.5.1</b> Design and implementation</a></li>
+<li class="chapter" data-level="4.5.2" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#data-import-and-model-assignment"><i class="fa fa-check"></i><b>4.5.2</b> Data import and model assignment</a></li>
+<li class="chapter" data-level="4.5.3" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#data-pruning-and-summarization"><i class="fa fa-check"></i><b>4.5.3</b> Data pruning and summarization</a></li>
+<li class="chapter" data-level="4.5.4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#visualization"><i class="fa fa-check"></i><b>4.5.4</b> Visualization</a></li>
+<li class="chapter" data-level="4.5.5" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#application-to-c.-elegans-growth-data"><i class="fa fa-check"></i><b>4.5.5</b> Application to <em>C. elegans</em> growth data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#conclusions"><i class="fa fa-check"></i><b>4.6</b> Conclusions</a></li>
+<li class="chapter" data-level="4.7" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#contributions-2"><i class="fa fa-check"></i><b>4.7</b> Contributions</a></li>
+<li class="chapter" data-level="4.8" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#supplement-1"><i class="fa fa-check"></i><b>4.8</b> Supplement</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion-2.html"><a href="discussion-2.html"><i class="fa fa-check"></i><b>5</b> Discussion</a></li>
+<li class="chapter" data-level="6" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="" data-path="appendix-of-r-code.html"><a href="appendix-of-r-code.html"><i class="fa fa-check"></i>Appendix of R code</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mechanisms of Larval Growth Control in <em>Caenorhabditis elegans</em></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Mechanisms of Larval Growth Control in <em>Caenorhabditis elegans</em></h1>
+<p class="author"><em><div class="line-block">Joy Nyaanga<br />
+<br />
+PhD Dissertation<br />
+Northwestern University<br />
+<br />
+<br />
+This dissertation is submitted in partial fulfillment of the requirements<br />
+for the degree Doctor of Philosophy: Field of Biological Sciences<br />
+<br />
+Repository: <a href="https://github.com/jnyaanga" class="uri">https://github.com/jnyaanga</a></div></em></p>
+<p class="date"><em>May 2022</em></p>
+</div>
+<div id="abstract" class="section level1 unnumbered">
+<h1>Abstract</h1>
+<p>Body size is one of the most discernible ways in which animal species vary. The blue whale (<em>Balaenoptera musculus</em>), the largest animal on earth, can reach up to 30 m in length and weigh up to 200 tonnes. At the other extreme, a species of frog called <em>Paedophryne amauensis</em> is among the smallest animals on earth with adults measuring just 8 mm in length, about the size of a pea. Understanding how organisms grow to their characteristic sizes is a fundamental biological question. Although a larger body size can increase an organism’s competitive advantage, an increased body size also requires added time and nutrients to develop. As such, organisms must have mechanisms to both sense and adjust growth during development. Studies of single cells have revealed that growth regulation can be achieved using time or size sensing control methods. In multicellular organisms, however, regulatory mechanisms must not only control single cell growth but also integrate it across organs and tissues during development. In this dissertation, I investigate growth control in the roundworm nematode <em>Caenorhabditis elegans</em>. I first optimize a high-throughput phenotyping platform that facilitates quantitative assessment of thousands of individuals at high precision. Using this platform, I quantify changes in animal size and shape throughout development. I further explore the natural genetic variation underlying body size and shape. The results of this work lay the foundation for a mechanistic dissection of organismal growth control.</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="acknowledgements.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-thesis.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

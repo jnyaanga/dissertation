@@ -1,0 +1,20 @@
+h1:easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler easyXpress: An R package to analyze and visualize  microscopy data generated using CellProfiler
+h2:preface Preface
+h2:abstract Abstract
+h2:introduction Introduction
+h2:materials-and-methods Materials and methods
+h3:preparation-of-animals-for-imaging Preparation of animals for imaging
+h3:imaging Imaging
+h3:paraquat-dose-response Paraquat dose response
+h3:naming-conventions Naming conventions
+h3:data-availability Data availability
+h2:results Results
+h3:design-and-implementation Design and implementation
+h3:data-import-and-model-assignment Data import and model assignment
+h3:data-pruning-and-summarization Data pruning and summarization
+h3:visualization Visualization
+h3:application-to-c.-elegans-growth-data Application to  growth data
+h2:conclusions Conclusions
+h2:contributions Contributions
+h2:supplement Supplement
+

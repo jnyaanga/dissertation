@@ -1,0 +1,21 @@
+bookdown::gitbook:
+  highlight: tango
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      scroll_highlight: true
+      before: |
+        <li><a href="">J.Nyaanga Dissertation</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    download: ["pdf"]
+    sharing:
+      github: yes
+      facebook: no
+      twitter: no
+      all: no
+bookdown::pdf_book:
+  toc: true
+  # keep_tex: true # uncomment to keep merged tex file
+# bookdown::word_document2: default # uncomment for word document
