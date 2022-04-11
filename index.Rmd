@@ -7,7 +7,7 @@ author:
     | PhD Dissertation 
     | Northwestern University
     |
-    | Repository: https://github.com/jnyaanga/thesis    
+    | Repository: https://github.com/jnyaanga/dissertation    
 
 date: "April 2022"
 cover-image: "img/NU_seal.png"
