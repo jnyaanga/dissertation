@@ -1,2 +1,2 @@
 # thesis
- Doctorate dissertation
+ View gitbook [here](https://jnyaanga.github.io/dissertation/)
