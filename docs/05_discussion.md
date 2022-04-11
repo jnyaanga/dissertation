@@ -1,2 +1,0 @@
-# Discussion
-\chaptermark{Discussion}

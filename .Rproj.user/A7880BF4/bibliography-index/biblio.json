@@ -24,6 +24,40 @@
             "type": "book"
         },
         {
+            "DOI": "10.1016/j.bpj.2022.01.013",
+            "ISSN": "0006-3495, 1542-0086",
+            "PMID": "35065051",
+            "author": [
+                {
+                    "family": "Rahimi",
+                    "given": "Mohammad"
+                },
+                {
+                    "family": "Sohrabi",
+                    "given": "Salman"
+                },
+                {
+                    "family": "Murphy",
+                    "given": "Coleen T"
+                }
+            ],
+            "container-title": "Biophys. J.",
+            "id": "Rahimi2022-ur",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        2
+                    ]
+                ]
+            },
+            "page": "515-524",
+            "title": "Novel elasticity measurements reveal c. Elegans cuticle stiffens with age and in a long-lived mutant",
+            "type": "article-journal",
+            "volume": "121"
+        },
+        {
             "author": [
                 {
                     "family": "Towbin",
@@ -46,6 +80,115 @@
             "publisher": "biorxiv.org",
             "title": "A folder mechanism ensures size uniformity among c. Elegans individuals by coupling growth and development",
             "type": "article-journal"
+        },
+        {
+            "DOI": "10.1534/genetics.118.301311",
+            "ISSN": "0016-6731, 1943-2631",
+            "PMID": "30341085",
+            "author": [
+                {
+                    "family": "Evans",
+                    "given": "Kathryn S"
+                },
+                {
+                    "family": "Brady",
+                    "given": "Shannon C"
+                },
+                {
+                    "family": "Bloom",
+                    "given": "Joshua S"
+                },
+                {
+                    "family": "Tanny",
+                    "given": "Robyn E"
+                },
+                {
+                    "family": "Cook",
+                    "given": "Daniel E"
+                },
+                {
+                    "family": "Giuliani",
+                    "given": "Sarah E"
+                },
+                {
+                    "family": "Hippleheuser",
+                    "given": "Stephen W"
+                },
+                {
+                    "family": "Zamanian",
+                    "given": "Mostafa"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                }
+            ],
+            "container-title": "Genetics",
+            "id": "Evans2018-sj",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "C. elegans; QTL; genetic interactions; pleiotropy; toxin",
+            "page": "1509-1525",
+            "title": "Shared genomic regions underlie natural variation in diverse toxin responses",
+            "type": "article-journal",
+            "volume": "210"
+        },
+        {
+            "DOI": "10.1017/S0016672305007767",
+            "ISSN": "0016-6723",
+            "PMID": "16356285",
+            "author": [
+                {
+                    "family": "Jacobsson",
+                    "given": "Lina"
+                },
+                {
+                    "family": "Park",
+                    "given": "Hee-Bok"
+                },
+                {
+                    "family": "Wahlberg",
+                    "given": "Per"
+                },
+                {
+                    "family": "Fredriksson",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Perez-Enciso",
+                    "given": "Miguel"
+                },
+                {
+                    "family": "Siegel",
+                    "given": "Paul B"
+                },
+                {
+                    "family": "Andersson",
+                    "given": "Leif"
+                }
+            ],
+            "container-title": "Genet. Res.",
+            "id": "Jacobsson2005-kr",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        10
+                    ]
+                ]
+            },
+            "page": "115-125",
+            "title": "Many QTLs with minor additive effects are associated with a large difference in growth between two selection lines in chickens",
+            "type": "article-journal",
+            "volume": "86"
         },
         {
             "DOI": "10.1038/sj.hdy.6800894",
@@ -209,6 +352,72 @@
             "title": "The bodies of dpy-10(e128) are twice as stiff as wild type",
             "type": "article-journal",
             "volume": "2018"
+        },
+        {
+            "DOI": "10.1101/2021.04.01.438121",
+            "author": [
+                {
+                    "family": "Nyaanga",
+                    "given": "Joy"
+                },
+                {
+                    "family": "Goss",
+                    "given": "Christina"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Gaotian"
+                },
+                {
+                    "family": "Ahmed",
+                    "given": "Hannah N"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Elliot J"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Isabella R"
+                },
+                {
+                    "family": "Rozenich",
+                    "given": "Justine K"
+                },
+                {
+                    "family": "Swarthout",
+                    "given": "Iris L"
+                },
+                {
+                    "family": "Vaughn",
+                    "given": "Jordan A"
+                },
+                {
+                    "family": "Mangan",
+                    "given": "Niall M"
+                },
+                {
+                    "family": "Shirman",
+                    "given": "Sasha"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                }
+            ],
+            "container-title": "bioRxiv",
+            "id": "Nyaanga2022-zd",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        2
+                    ]
+                ]
+            },
+            "page": "2021.04.01.438121",
+            "title": "Changes in body shape implicate cuticle stretch in c. Elegans growth control",
+            "type": "manuscript"
         },
         {
             "DOI": "10.1016/j.cub.2012.02.041",
@@ -645,6 +854,81 @@
             "title": "Cell growth and size homeostasis in proliferating animal cells",
             "type": "article-journal",
             "volume": "325"
+        },
+        {
+            "DOI": "10.1534/genetics.117.300406",
+            "ISSN": "0016-6731, 1943-2631",
+            "PMID": "29066469",
+            "author": [
+                {
+                    "family": "Noble",
+                    "given": "Luke M"
+                },
+                {
+                    "family": "Chelo",
+                    "given": "Ivo"
+                },
+                {
+                    "family": "Guzella",
+                    "given": "Thiago"
+                },
+                {
+                    "family": "Afonso",
+                    "given": "Bruno"
+                },
+                {
+                    "family": "Riccardi",
+                    "given": "David D"
+                },
+                {
+                    "family": "Ammerman",
+                    "given": "Patrick"
+                },
+                {
+                    "family": "Dayarian",
+                    "given": "Adel"
+                },
+                {
+                    "family": "Carvalho",
+                    "given": "Sara"
+                },
+                {
+                    "family": "Crist",
+                    "given": "Anna"
+                },
+                {
+                    "family": "Pino-Querido",
+                    "given": "Ania"
+                },
+                {
+                    "family": "Shraiman",
+                    "given": "Boris"
+                },
+                {
+                    "family": "Rockman",
+                    "given": "Matthew V"
+                },
+                {
+                    "family": "Teotónio",
+                    "given": "Henrique"
+                }
+            ],
+            "container-title": "Genetics",
+            "id": "Noble2017-py",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "GWAS; MPP; Multiparent Advanced Generation Inter-Cross (MAGIC); QTL; body size; complex trait; epistasis; experimental evolution; fertility; genetic architecture; heritability; multiparental populations; polygenicity; quantitative trait; selfing",
+            "page": "1663-1685",
+            "title": "Polygenicity and epistasis underlie Fitness-Proximal traits in the caenorhabditis elegans multiparental experimental evolution (CeMEE) panel",
+            "type": "article-journal",
+            "volume": "207"
         },
         {
             "author": [
@@ -1212,6 +1496,57 @@
             "volume": "126"
         },
         {
+            "DOI": "10.1534/genetics.115.178491",
+            "ISSN": "0016-6731, 1943-2631",
+            "PMID": "26092720",
+            "author": [
+                {
+                    "family": "Ghosh",
+                    "given": "Rajarshi"
+                },
+                {
+                    "family": "Bloom",
+                    "given": "Joshua S"
+                },
+                {
+                    "family": "Mohammadi",
+                    "given": "Aylia"
+                },
+                {
+                    "family": "Schumer",
+                    "given": "Molly E"
+                },
+                {
+                    "family": "Andolfatto",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Ryu",
+                    "given": "William"
+                },
+                {
+                    "family": "Kruglyak",
+                    "given": "Leonid"
+                }
+            ],
+            "container-title": "Genetics",
+            "id": "Ghosh2015-bw",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "innate behavior; natural variation; quantitative genetics; thermosensation",
+            "page": "1327-1339",
+            "title": "Genetics of intraspecies variation in avoidance behavior induced by a thermal stimulus in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "200"
+        },
+        {
             "ISBN": "9780879695323",
             "editor": [
                 {
@@ -1284,6 +1619,36 @@
             "title": "Analysis of nematode mechanics by piezoresistive displacement clamp",
             "type": "article-journal",
             "volume": "104"
+        },
+        {
+            "DOI": "10.1006/dbio.2000.9679",
+            "ISSN": "0012-1606",
+            "PMID": "10772806",
+            "author": [
+                {
+                    "family": "Gissendanner",
+                    "given": "C R"
+                },
+                {
+                    "family": "Sluder",
+                    "given": "A E"
+                }
+            ],
+            "container-title": "Dev. Biol.",
+            "id": "Gissendanner2000-hs",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000,
+                        5
+                    ]
+                ]
+            },
+            "page": "259-272",
+            "title": "Nhr-25, the caenorhabditis elegans ortholog of ftz-f1, is required for epidermal and somatic gonad development",
+            "type": "article-journal",
+            "volume": "221"
         },
         {
             "DOI": "10.1371/journal.pone.0007018",
@@ -1455,6 +1820,33 @@
             "volume": "102"
         },
         {
+            "DOI": "10.1111/j.1469-7998.1976.tb03231.x",
+            "ISSN": "0952-8369, 1469-7998",
+            "author": [
+                {
+                    "family": "Wilson",
+                    "given": "Peter A G"
+                }
+            ],
+            "container-title": "J. Zool.",
+            "id": "Wilson1976-bc",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1976,
+                        5
+                    ]
+                ]
+            },
+            "page": "135-151",
+            "publisher": "Wiley",
+            "title": "Nematode growth patterns and the moulting cycle: The population growth profile",
+            "title-short": "Nematode growth patterns and the moulting cycle",
+            "type": "article-journal",
+            "volume": "179"
+        },
+        {
             "DOI": "10.1091/mbc.E19-07-0390",
             "ISSN": "1059-1524, 1939-4586",
             "PMID": "32049594",
@@ -1603,6 +1995,41 @@
             "volume": "77"
         },
         {
+            "DOI": "10.1016/j.cell.2017.05.038",
+            "ISSN": "0092-8674, 1097-4172",
+            "PMID": "28622505",
+            "author": [
+                {
+                    "family": "Boyle",
+                    "given": "Evan A"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yang I"
+                },
+                {
+                    "family": "Pritchard",
+                    "given": "Jonathan K"
+                }
+            ],
+            "container-title": "Cell",
+            "id": "Boyle2017-bb",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        6
+                    ]
+                ]
+            },
+            "page": "1177-1186",
+            "title": "An expanded view of complex traits: From polygenic to omnigenic",
+            "title-short": "An expanded view of complex traits",
+            "type": "article-journal",
+            "volume": "169"
+        },
+        {
             "DOI": "10.1002/bies.10266",
             "ISSN": "0265-9247",
             "PMID": "12655636",
@@ -1665,6 +2092,29 @@
         {
             "author": [
                 {
+                    "family": "R Core Team",
+                    "given": "Rffsc"
+                },
+                {
+                    "literal": "Others"
+                }
+            ],
+            "id": "R_Core_Team2013-sw",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "publisher": "R foundation for statistical computing Vienna, Austria",
+            "title": "R: A language and environment for statistical computing",
+            "title-short": "R",
+            "type": ""
+        },
+        {
+            "author": [
+                {
                     "family": "Griffiths",
                     "given": "Anthony J F"
                 },
@@ -1698,6 +2148,36 @@
             "type": "book"
         },
         {
+            "DOI": "10.3389/fgene.2019.00720",
+            "ISSN": "1664-8021",
+            "PMID": "31481970",
+            "author": [
+                {
+                    "family": "Lafuente",
+                    "given": "Elvira"
+                },
+                {
+                    "family": "Beldade",
+                    "given": "Patrı́cia"
+                }
+            ],
+            "container-title": "Front. Genet.",
+            "id": "Lafuente2019-up",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "developmental plasticity; environmentally responsive genes; genomics of plasticity; plasticity variation; reaction norms",
+            "page": "720",
+            "title": "Genomics of developmental plasticity in animals",
+            "type": "article-journal",
+            "volume": "10"
+        },
+        {
             "ISSN": "0362-2525",
             "author": [
                 {
@@ -1717,6 +2197,106 @@
             "publisher": "Wiley Online Library",
             "title": "Experimental and cytological studies on bisexual and hermaphrodite free‐living nematodes, with special reference to problems of sex",
             "type": "article-journal"
+        },
+        {
+            "DOI": "10.1186/s12864-016-3175-3",
+            "ISSN": "1471-2164",
+            "PMID": "27809761",
+            "author": [
+                {
+                    "family": "Kemper",
+                    "given": "K E"
+                },
+                {
+                    "family": "Littlejohn",
+                    "given": "M D"
+                },
+                {
+                    "family": "Lopdell",
+                    "given": "T"
+                },
+                {
+                    "family": "Hayes",
+                    "given": "B J"
+                },
+                {
+                    "family": "Bennett",
+                    "given": "L E"
+                },
+                {
+                    "family": "Williams",
+                    "given": "R P"
+                },
+                {
+                    "family": "Xu",
+                    "given": "X Q"
+                },
+                {
+                    "family": "Visscher",
+                    "given": "P M"
+                },
+                {
+                    "family": "Carrick",
+                    "given": "M J"
+                },
+                {
+                    "family": "Goddard",
+                    "given": "M E"
+                }
+            ],
+            "container-title": "BMC Genomics",
+            "id": "Kemper2016-bz",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        11
+                    ]
+                ]
+            },
+            "keyword": "Complex traits; Gene expression; Pleiotropy; QTL mapping",
+            "page": "858",
+            "title": "Leveraging genetically simple traits to identify small-effect variants for complex phenotypes",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
+            "DOI": "10.1093/gbe/evs084",
+            "ISSN": "1759-6653",
+            "PMID": "23019066",
+            "author": [
+                {
+                    "family": "Hodgins-Davis",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Adomas",
+                    "given": "Aleksandra B"
+                },
+                {
+                    "family": "Warringer",
+                    "given": "Jonas"
+                },
+                {
+                    "family": "Townsend",
+                    "given": "Jeffrey P"
+                }
+            ],
+            "container-title": "Genome Biol. Evol.",
+            "id": "Hodgins-Davis2012-ok",
+            "issue": "11",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "1061-1079",
+            "title": "Abundant gene-by-environment interactions in gene expression reaction norms to copper within saccharomyces cerevisiae",
+            "type": "article-journal",
+            "volume": "4"
         },
         {
             "DOI": "10.1111/j.1365-2443.2011.01514.x",
@@ -2044,6 +2624,30 @@
             "type": "article-journal"
         },
         {
+            "author": [
+                {
+                    "family": "Malakhov",
+                    "given": "U V"
+                },
+                {
+                    "literal": "Others"
+                }
+            ],
+            "container-title": "Nematodes: structure, development, classification and phylogeny.",
+            "id": "Malakhov1986-nb",
+            "issued": {
+                "date-parts": [
+                    [
+                        1986
+                    ]
+                ]
+            },
+            "publisher": "Nanka",
+            "title": "Nematodes: Structure, development, classification and phylogeny",
+            "title-short": "Nematodes",
+            "type": "article-journal"
+        },
+        {
             "DOI": "10.2307/2291091",
             "ISSN": "0162-1459, 1537-274X",
             "author": [
@@ -2294,6 +2898,32 @@
             "volume": "210"
         },
         {
+            "DOI": "10.1111/j.1467-8624.1963.tb05970.x",
+            "ISSN": "0009-3920",
+            "PMID": "14082903",
+            "author": [
+                {
+                    "family": "Tanner",
+                    "given": "J M"
+                }
+            ],
+            "container-title": "Child Dev.",
+            "id": "Tanner1963-wa",
+            "issued": {
+                "date-parts": [
+                    [
+                        1963,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "ADOLESCENCE; ADRENAL GLAND NEOPLASMS; AGING; ANOREXIA NERVOSA; BIRTH WEIGHT; BODY HEIGHT; CHILD; CORTICOTROPIN; CUSHING’S SYNDROME; DWARFISM; GROWTH; GROWTH SUBSTANCES; HYPOTHYROIDISM; INFANT; PHYSIOLOGY; PUBERTY; REVIEW; SEASONS",
+            "page": "817-847",
+            "title": "THE REGULATION OF HUMAN GROWTH",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
             "DOI": "10.1101/gr.246082.118",
             "ISSN": "1088-9051, 1549-5469",
             "PMID": "31123081",
@@ -2383,6 +3013,35 @@
             "volume": "4"
         },
         {
+            "DOI": "10.1017/s0031182000083013",
+            "ISSN": "0031-1820",
+            "PMID": "6657306",
+            "author": [
+                {
+                    "family": "Howells",
+                    "given": "R E"
+                },
+                {
+                    "family": "Blainey",
+                    "given": "L J"
+                }
+            ],
+            "container-title": "Parasitology",
+            "id": "Howells1983-vf",
+            "issued": {
+                "date-parts": [
+                    [
+                        1983,
+                        12
+                    ]
+                ]
+            },
+            "page": "493-505",
+            "title": "The moulting process and the phenomenon of intermoult growth in the filarial nematode brugia pahangi",
+            "type": "article-journal",
+            "volume": "87 (Pt 3)"
+        },
+        {
             "DOI": "10.1126/science.3485310",
             "ISSN": "0036-8075",
             "PMID": "3485310",
@@ -2423,6 +3082,32 @@
             "title": "Molecular genetics of inherited variation in human color vision",
             "type": "article-journal",
             "volume": "232"
+        },
+        {
+            "DOI": "10.1002/jez.1400520303",
+            "ISSN": "0022-104X, 1097-010X",
+            "author": [
+                {
+                    "family": "Alpatov",
+                    "given": "W W"
+                }
+            ],
+            "container-title": "J. Exp. Zool.",
+            "id": "Alpatov1929-li",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1929,
+                        2
+                    ]
+                ]
+            },
+            "page": "407-437",
+            "publisher": "Wiley",
+            "title": "Growth and variation of the larvae of drosophila melanogaster",
+            "type": "article-journal",
+            "volume": "52"
         },
         {
             "DOI": "10.1016/0012-1606(77)90158-0",
@@ -2589,6 +3274,37 @@
             "volume": "9"
         },
         {
+            "DOI": "10.1016/0012-1606(76)90120-2",
+            "author": [
+                {
+                    "family": "Byerly",
+                    "given": "L"
+                },
+                {
+                    "family": "Scherer",
+                    "given": "S"
+                },
+                {
+                    "family": "Russell",
+                    "given": "R L"
+                }
+            ],
+            "container-title": "Developmental Biology",
+            "id": "Byerly1976-yg",
+            "issued": {
+                "date-parts": [
+                    [
+                        1976
+                    ]
+                ]
+            },
+            "number": "1",
+            "page": "34-48",
+            "title": "The life cycle of the nematode caenorhabditis elegans",
+            "type": "",
+            "volume": "51"
+        },
+        {
             "DOI": "10.1002/gene.10184",
             "ISSN": "1526-954X, 1526-968X",
             "PMID": "12717735",
@@ -2669,6 +3385,32 @@
             "title-short": "Finding function in novel targets",
             "type": "article-journal",
             "volume": "5"
+        },
+        {
+            "DOI": "10.1080/00222936800771011",
+            "ISSN": "0022-2933",
+            "author": [
+                {
+                    "family": "Rice",
+                    "given": "A L"
+                }
+            ],
+            "container-title": "J. Nat. Hist.",
+            "id": "Rice1968-em",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1968,
+                        10
+                    ]
+                ]
+            },
+            "page": "525-530",
+            "publisher": "Taylor & Francis",
+            "title": "Growth “rules” and the larvae of decapod crustaceans",
+            "type": "article-journal",
+            "volume": "2"
         },
         {
             "DOI": "10.1534/g3.115.017178",
@@ -3069,6 +3811,2550 @@
             "volume": "10"
         },
         {
+            "DOI": "10.1101/2022.01.07.475305",
+            "author": [
+                {
+                    "family": "Yengo",
+                    "given": "Loic"
+                },
+                {
+                    "family": "Vedantam",
+                    "given": "Sailaja"
+                },
+                {
+                    "family": "Marouli",
+                    "given": "Eirini"
+                },
+                {
+                    "family": "Sidorenko",
+                    "given": "Julia"
+                },
+                {
+                    "family": "Bartell",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Sakaue",
+                    "given": "Saori"
+                },
+                {
+                    "family": "Graff",
+                    "given": "Marielisa"
+                },
+                {
+                    "family": "Eliasen",
+                    "given": "Anders U"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Yunxuan"
+                },
+                {
+                    "family": "Raghavan",
+                    "given": "Sridharan"
+                },
+                {
+                    "family": "Miao",
+                    "given": "Jenkai"
+                },
+                {
+                    "family": "Arias",
+                    "given": "Joshua D"
+                },
+                {
+                    "family": "Mukamel",
+                    "given": "Ronen E"
+                },
+                {
+                    "family": "Spracklen",
+                    "given": "Cassandra N"
+                },
+                {
+                    "family": "Yin",
+                    "given": "Xianyong"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Shyh-Huei"
+                },
+                {
+                    "family": "Ferreira",
+                    "given": "Teresa"
+                },
+                {
+                    "family": "Yingjie",
+                    "given": "J I"
+                },
+                {
+                    "family": "Karedera",
+                    "given": "Tugce"
+                },
+                {
+                    "family": "Lüll",
+                    "given": "Kreete"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Kuang"
+                },
+                {
+                    "family": "Malden",
+                    "given": "Deborah E"
+                },
+                {
+                    "family": "Medina-Gomez",
+                    "given": "Carolina"
+                },
+                {
+                    "family": "Machado",
+                    "given": "Moara"
+                },
+                {
+                    "family": "Moore",
+                    "given": "Amy"
+                },
+                {
+                    "family": "Rüeger",
+                    "given": "Sina"
+                },
+                {
+                    "family": "Ahluwalia",
+                    "given": "Tarunveer S"
+                },
+                {
+                    "family": "Akiyama",
+                    "given": "Masato"
+                },
+                {
+                    "family": "Allison",
+                    "given": "Matthew A"
+                },
+                {
+                    "family": "Alvarez",
+                    "given": "Marcus"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Mette K"
+                },
+                {
+                    "family": "Ani",
+                    "given": "Alireza"
+                },
+                {
+                    "family": "Appadurai",
+                    "given": "Vivek"
+                },
+                {
+                    "family": "Arbeeva",
+                    "given": "Liubov"
+                },
+                {
+                    "family": "Bhaskar",
+                    "given": "Seema"
+                },
+                {
+                    "family": "Bielak",
+                    "given": "Lawrence F"
+                },
+                {
+                    "family": "Bollepalli",
+                    "given": "Sailalitha"
+                },
+                {
+                    "family": "Bonnycastle",
+                    "given": "Lori L"
+                },
+                {
+                    "family": "Bork-Jensen",
+                    "given": "Jette"
+                },
+                {
+                    "family": "Bradfield",
+                    "given": "Jonathan P"
+                },
+                {
+                    "family": "Bradford",
+                    "given": "Yuki"
+                },
+                {
+                    "family": "Braund",
+                    "given": "Peter S"
+                },
+                {
+                    "family": "Brody",
+                    "given": "Jennifer A"
+                },
+                {
+                    "family": "Burgdorf",
+                    "given": "Kristoffer S"
+                },
+                {
+                    "family": "Cade",
+                    "given": "Brian E"
+                },
+                {
+                    "family": "Cai",
+                    "given": "Hui"
+                },
+                {
+                    "family": "Cai",
+                    "given": "Qiuyin"
+                },
+                {
+                    "family": "Campbell",
+                    "given": "Archie"
+                },
+                {
+                    "family": "Cañadas-Garre",
+                    "given": "Marisa"
+                },
+                {
+                    "family": "Catamo",
+                    "given": "Eulalia"
+                },
+                {
+                    "family": "Chai",
+                    "given": "Jin-Fang"
+                },
+                {
+                    "family": "Chai",
+                    "given": "Xiaoran"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Li-Ching"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Yi-Cheng"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Chien-Hsiun"
+                },
+                {
+                    "family": "Chesi",
+                    "given": "Alessandra"
+                },
+                {
+                    "family": "Choi",
+                    "given": "Seung Hoan"
+                },
+                {
+                    "family": "Chung",
+                    "given": "Ren-Hua"
+                },
+                {
+                    "family": "Cocca",
+                    "given": "Massimiliano"
+                },
+                {
+                    "family": "Concas",
+                    "given": "Maria Pina"
+                },
+                {
+                    "family": "Couture",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Cuellar-Partida",
+                    "given": "Gabriel"
+                },
+                {
+                    "family": "Danning",
+                    "given": "Rebecca"
+                },
+                {
+                    "family": "Warwick Daw",
+                    "given": "E"
+                },
+                {
+                    "family": "Degenhard",
+                    "given": "Frauke"
+                },
+                {
+                    "family": "Delgado",
+                    "given": "Graciela E"
+                },
+                {
+                    "family": "Delitala",
+                    "given": "Alessandro"
+                },
+                {
+                    "family": "Demirkan",
+                    "given": "Ayşe"
+                },
+                {
+                    "family": "Deng",
+                    "given": "Xuan"
+                },
+                {
+                    "family": "Devineni",
+                    "given": "Poornima"
+                },
+                {
+                    "family": "Dietl",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Dimitriou",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Dimitrov",
+                    "given": "Latchezar"
+                },
+                {
+                    "family": "Dorajoo",
+                    "given": "Rajkumar"
+                },
+                {
+                    "family": "Ekici",
+                    "given": "Arif B"
+                },
+                {
+                    "family": "Engmann",
+                    "given": "Jorgen E"
+                },
+                {
+                    "family": "Fairhurst-Hunter",
+                    "given": "Zammy"
+                },
+                {
+                    "family": "Farmaki",
+                    "given": "Aliki-Eleni"
+                },
+                {
+                    "family": "Faul",
+                    "given": "Jessica D"
+                },
+                {
+                    "family": "Fernandez-Lopez",
+                    "given": "Juan-Carlos"
+                },
+                {
+                    "family": "Forer",
+                    "given": "Lukas"
+                },
+                {
+                    "family": "Francescatto",
+                    "given": "Margherita"
+                },
+                {
+                    "family": "Freitag-Wolf",
+                    "given": "Sandra"
+                },
+                {
+                    "family": "Fuchsberger",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Galesloot",
+                    "given": "Tessel E"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Yan"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Zishan"
+                },
+                {
+                    "family": "Geller",
+                    "given": "Frank"
+                },
+                {
+                    "family": "Giannakopoulou",
+                    "given": "Olga"
+                },
+                {
+                    "family": "Giulianini",
+                    "given": "Franco"
+                },
+                {
+                    "family": "Gjesing",
+                    "given": "Anette P"
+                },
+                {
+                    "family": "Goel",
+                    "given": "Anuj"
+                },
+                {
+                    "family": "Gordon",
+                    "given": "Scott D"
+                },
+                {
+                    "family": "Gorski",
+                    "given": "Mathias"
+                },
+                {
+                    "family": "Graham",
+                    "given": "Sarah E"
+                },
+                {
+                    "family": "Grove",
+                    "given": "Jakob"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Xiuqing"
+                },
+                {
+                    "family": "Gustafsson",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Haessler",
+                    "given": "Jeffrey"
+                },
+                {
+                    "family": "Hansen",
+                    "given": "Thomas F"
+                },
+                {
+                    "family": "Havulinna",
+                    "given": "Aki"
+                },
+                {
+                    "family": "Haworth",
+                    "given": "Simon J"
+                },
+                {
+                    "family": "He",
+                    "given": "Jing"
+                },
+                {
+                    "family": "Heard-Costa",
+                    "given": "Nancy"
+                },
+                {
+                    "family": "Hebbar",
+                    "given": "Prashantha"
+                },
+                {
+                    "family": "Hindy",
+                    "given": "George"
+                },
+                {
+                    "family": "Ho",
+                    "given": "Yuk-Lam A"
+                },
+                {
+                    "family": "Hofer",
+                    "given": "Edith"
+                },
+                {
+                    "family": "Holliday",
+                    "given": "Elizabeth"
+                },
+                {
+                    "family": "Horn",
+                    "given": "Katrin"
+                },
+                {
+                    "family": "Hornsby",
+                    "given": "Whitney E"
+                },
+                {
+                    "family": "Hottenga",
+                    "given": "Jouke-Jan"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Hongyan"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Huerta-Chagoya",
+                    "given": "Alicia"
+                },
+                {
+                    "family": "Huffman",
+                    "given": "Jennifer E"
+                },
+                {
+                    "family": "Hung",
+                    "given": "Yi-Jen"
+                },
+                {
+                    "family": "Huo",
+                    "given": "Shaofeng"
+                },
+                {
+                    "family": "Hwang",
+                    "given": "Mi Yeong"
+                },
+                {
+                    "family": "Iha",
+                    "given": "Hiroyuki"
+                },
+                {
+                    "family": "Ikeda",
+                    "given": "Daisuke D"
+                },
+                {
+                    "family": "Isono",
+                    "given": "Masato"
+                },
+                {
+                    "family": "Jackson",
+                    "given": "Anne U"
+                },
+                {
+                    "family": "Jäger",
+                    "given": "Susanne"
+                },
+                {
+                    "family": "Jansen",
+                    "given": "Iris E"
+                },
+                {
+                    "family": "Johansson",
+                    "given": "Ingegerd"
+                },
+                {
+                    "family": "Jonas",
+                    "given": "Jost B"
+                },
+                {
+                    "family": "Jonsson",
+                    "given": "Anna"
+                },
+                {
+                    "family": "Jørgensen",
+                    "given": "Torben"
+                },
+                {
+                    "family": "Kalafati",
+                    "given": "Ioanna-Panagiota"
+                },
+                {
+                    "family": "Kanai",
+                    "given": "Masahiro"
+                },
+                {
+                    "family": "Kanoni",
+                    "given": "Stavroula"
+                },
+                {
+                    "family": "Kårhus",
+                    "given": "Line L"
+                },
+                {
+                    "family": "Kasturiratne",
+                    "given": "Anuradhani"
+                },
+                {
+                    "family": "Katsuya",
+                    "given": "Tomohiro"
+                },
+                {
+                    "family": "Kawaguchi",
+                    "given": "Takahisa"
+                },
+                {
+                    "family": "Kember",
+                    "given": "Rachel L"
+                },
+                {
+                    "family": "Kentistou",
+                    "given": "Katherine A"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Han-Na"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Young Jin"
+                },
+                {
+                    "family": "Kleber",
+                    "given": "Marcus E"
+                },
+                {
+                    "family": "Knol",
+                    "given": "Maria J"
+                },
+                {
+                    "family": "Kurbasic",
+                    "given": "Azra"
+                },
+                {
+                    "family": "Lauzon",
+                    "given": "Marie"
+                },
+                {
+                    "family": "Le",
+                    "given": "Phuong"
+                },
+                {
+                    "family": "Lea",
+                    "given": "Rodney"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Jong-Young"
+                },
+                {
+                    "family": "Leonard",
+                    "given": "Hampton L"
+                },
+                {
+                    "family": "Li",
+                    "given": "Shengchao A"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xiaohui"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xiaoyin"
+                },
+                {
+                    "family": "Liang",
+                    "given": "Jingjing"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Honghuang"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Shih-Yi"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Xueping"
+                },
+                {
+                    "family": "Lo",
+                    "given": "Ken Sin"
+                },
+                {
+                    "family": "Long",
+                    "given": "Jirong"
+                },
+                {
+                    "family": "Lores-Motta",
+                    "given": "Laura"
+                },
+                {
+                    "family": "Luan",
+                    "given": "Jian’an"
+                },
+                {
+                    "family": "Lyssenko",
+                    "given": "Valeriya"
+                },
+                {
+                    "family": "Lyytikäinen",
+                    "given": "Leo-Pekka"
+                },
+                {
+                    "family": "Mahajan",
+                    "given": "Anubha"
+                },
+                {
+                    "family": "Mamakou",
+                    "given": "Vasiliki"
+                },
+                {
+                    "family": "Mangino",
+                    "given": "Massimo"
+                },
+                {
+                    "family": "Manichaikul",
+                    "given": "Ani"
+                },
+                {
+                    "family": "Marten",
+                    "given": "Jonathan"
+                },
+                {
+                    "family": "Mattheisen",
+                    "given": "Manuel"
+                },
+                {
+                    "family": "Mavarani",
+                    "given": "Laven"
+                },
+                {
+                    "family": "McDaid",
+                    "given": "Aaron F"
+                },
+                {
+                    "family": "Meidtner",
+                    "given": "Karina"
+                },
+                {
+                    "family": "Melendez",
+                    "given": "Tori L"
+                },
+                {
+                    "family": "Mercader",
+                    "given": "Josep M"
+                },
+                {
+                    "family": "Milaneschi",
+                    "given": "Yuri"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Jason E"
+                },
+                {
+                    "family": "Millwood",
+                    "given": "Iona Y"
+                },
+                {
+                    "family": "Mishra",
+                    "given": "Pashupati P"
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "Ruth E"
+                },
+                {
+                    "family": "Møllehave",
+                    "given": "Line T"
+                },
+                {
+                    "family": "Morgan",
+                    "given": "Anna"
+                },
+                {
+                    "family": "Mucha",
+                    "given": "Soeren"
+                },
+                {
+                    "family": "Munz",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Nakatochi",
+                    "given": "Masahiro"
+                },
+                {
+                    "family": "Nelson",
+                    "given": "Christopher P"
+                },
+                {
+                    "family": "Nethander",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Nho",
+                    "given": "Chu Won"
+                },
+                {
+                    "family": "Nielsen",
+                    "given": "Aneta A"
+                },
+                {
+                    "family": "Nolte",
+                    "given": "Ilja M"
+                },
+                {
+                    "family": "Nongmaithem",
+                    "given": "Suraj S"
+                },
+                {
+                    "family": "Noordam",
+                    "given": "Raymond"
+                },
+                {
+                    "family": "Ntalla",
+                    "given": "Ioanna"
+                },
+                {
+                    "family": "Nutile",
+                    "given": "Teresa"
+                },
+                {
+                    "family": "Pandit",
+                    "given": "Anita"
+                },
+                {
+                    "family": "Christofidou",
+                    "given": "Paraskevi"
+                },
+                {
+                    "family": "Pärna",
+                    "given": "Katri"
+                },
+                {
+                    "family": "Pauper",
+                    "given": "Marc"
+                },
+                {
+                    "family": "Petersen",
+                    "given": "Eva R B"
+                },
+                {
+                    "family": "Petersen",
+                    "given": "Liselotte V"
+                },
+                {
+                    "family": "Pitkänen",
+                    "given": "Niina"
+                },
+                {
+                    "family": "Polašek",
+                    "given": "Ozren"
+                },
+                {
+                    "family": "Poveda",
+                    "given": "Alaitz"
+                },
+                {
+                    "family": "Preuss",
+                    "given": "Michael H"
+                },
+                {
+                    "family": "Pyarajan",
+                    "given": "Saiju"
+                },
+                {
+                    "family": "Raffield",
+                    "given": "Laura M"
+                },
+                {
+                    "family": "Rakugi",
+                    "given": "Hiromi"
+                },
+                {
+                    "family": "Ramirez",
+                    "given": "Julia"
+                },
+                {
+                    "family": "Rasheed",
+                    "given": "Asif"
+                },
+                {
+                    "family": "Raven",
+                    "given": "Dennis"
+                },
+                {
+                    "family": "Rayner",
+                    "given": "Nigel W"
+                },
+                {
+                    "family": "Riveros",
+                    "given": "Carlos"
+                },
+                {
+                    "family": "Rohde",
+                    "given": "Rebecca"
+                },
+                {
+                    "family": "Ruggiero",
+                    "given": "Daniela"
+                },
+                {
+                    "family": "Ruotsalainen",
+                    "given": "Sanni E"
+                },
+                {
+                    "family": "Ryan",
+                    "given": "Kathleen A"
+                },
+                {
+                    "family": "Sabater-Lleal",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Saxena",
+                    "given": "Richa"
+                },
+                {
+                    "family": "Scholz",
+                    "given": "Markus"
+                },
+                {
+                    "family": "Sendamarai",
+                    "given": "Anoop"
+                },
+                {
+                    "family": "Shen",
+                    "given": "Botong"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Jingchunzi"
+                },
+                {
+                    "family": "Shin",
+                    "given": "Jae Hun"
+                },
+                {
+                    "family": "Sidore",
+                    "given": "Carlo"
+                },
+                {
+                    "family": "Sim",
+                    "given": "Xueling"
+                },
+                {
+                    "family": "Sitlani",
+                    "given": "Colleen M"
+                },
+                {
+                    "family": "Slieker",
+                    "given": "Roderick C"
+                },
+                {
+                    "family": "Smit",
+                    "given": "Roelof A J"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Albert V"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Jennifer A"
+                },
+                {
+                    "family": "Smyth",
+                    "given": "Laura J"
+                },
+                {
+                    "family": "Southam",
+                    "given": "Lorraine"
+                },
+                {
+                    "family": "Steinthorsdottir",
+                    "given": "Valgerdur"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Liang"
+                },
+                {
+                    "family": "Takeuchi",
+                    "given": "Fumihiko"
+                },
+                {
+                    "family": "Tallapragada",
+                    "given": "Divya Sri Priyanka"
+                },
+                {
+                    "family": "Taylor",
+                    "given": "Kent D"
+                },
+                {
+                    "family": "Tayo",
+                    "given": "Bamidele O"
+                },
+                {
+                    "family": "Tcheandjieu",
+                    "given": "Catherine"
+                },
+                {
+                    "family": "Terzikhan",
+                    "given": "Natalie"
+                },
+                {
+                    "family": "Tesolin",
+                    "given": "Paola"
+                },
+                {
+                    "family": "Teumer",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Theusch",
+                    "given": "Elizabeth"
+                },
+                {
+                    "family": "Thompson",
+                    "given": "Deborah J"
+                },
+                {
+                    "family": "Thorleifsson",
+                    "given": "Gudmar"
+                },
+                {
+                    "family": "Timmers",
+                    "given": "Paul R H"
+                },
+                {
+                    "family": "Trompet",
+                    "given": "Stella"
+                },
+                {
+                    "family": "Turman",
+                    "given": "Constance"
+                },
+                {
+                    "family": "Vaccargiu",
+                    "given": "Simona"
+                },
+                {
+                    "dropping-particle": "van der",
+                    "family": "Laan",
+                    "given": "Sander W"
+                },
+                {
+                    "dropping-particle": "van der",
+                    "family": "Most",
+                    "given": "Peter J"
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Klinken",
+                    "given": "Jan B"
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Setten",
+                    "given": "Jessica"
+                },
+                {
+                    "family": "Verma",
+                    "given": "Shefali S"
+                },
+                {
+                    "family": "Verweij",
+                    "given": "Niek"
+                },
+                {
+                    "family": "Veturi",
+                    "given": "Yogasudha"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Carol A"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Chaolong"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Lihua"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zhe"
+                },
+                {
+                    "family": "Warren",
+                    "given": "Helen R"
+                },
+                {
+                    "family": "Wei",
+                    "given": "Wen Bin"
+                },
+                {
+                    "family": "Wickremasinghe",
+                    "given": "Ananda R"
+                },
+                {
+                    "family": "Wielscher",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Wiggins",
+                    "given": "Kerri L"
+                },
+                {
+                    "family": "Winsvold",
+                    "given": "Bendik S"
+                },
+                {
+                    "family": "Wong",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Wuttke",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Rui"
+                },
+                {
+                    "family": "Xie",
+                    "given": "Tian"
+                },
+                {
+                    "family": "Yamamoto",
+                    "given": "Ken"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jingyun"
+                },
+                {
+                    "family": "Yao",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Young",
+                    "given": "Hannah"
+                },
+                {
+                    "family": "Yousri",
+                    "given": "Noha A"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Zeng",
+                    "given": "Lingyao"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Weihua"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xinyuan"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Jing-Hua"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Zimmermann",
+                    "given": "Martina E"
+                },
+                {
+                    "family": "Zoledziewska",
+                    "given": "Magdalena"
+                },
+                {
+                    "family": "Adair",
+                    "given": "Linda S"
+                },
+                {
+                    "family": "Adams",
+                    "given": "Hieab H H"
+                },
+                {
+                    "family": "Aguilar-Salinas",
+                    "given": "Carlos A"
+                },
+                {
+                    "family": "Al-Mulla",
+                    "given": "Fahd"
+                },
+                {
+                    "family": "Arnett",
+                    "given": "Donna K"
+                },
+                {
+                    "family": "Asselbergs",
+                    "given": "Folkert W"
+                },
+                {
+                    "family": "Åsvold",
+                    "given": "Bjørn Olav"
+                },
+                {
+                    "family": "Attia",
+                    "given": "John"
+                },
+                {
+                    "family": "Banas",
+                    "given": "Bernhard"
+                },
+                {
+                    "family": "Bandinelli",
+                    "given": "Stefania"
+                },
+                {
+                    "family": "Bennett",
+                    "given": "David A"
+                },
+                {
+                    "family": "Bergler",
+                    "given": "Tobias"
+                },
+                {
+                    "family": "Bharadwaj",
+                    "given": "Dwaipayan"
+                },
+                {
+                    "family": "Biino",
+                    "given": "Ginevra"
+                },
+                {
+                    "family": "Bisgaard",
+                    "given": "Hans"
+                },
+                {
+                    "family": "Boerwinkle",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Böger",
+                    "given": "Carsten A"
+                },
+                {
+                    "family": "Bønnelykke",
+                    "given": "Klaus"
+                },
+                {
+                    "family": "Boomsma",
+                    "given": "Dorret I"
+                },
+                {
+                    "family": "Børglum",
+                    "given": "Anders D"
+                },
+                {
+                    "family": "Borja",
+                    "given": "Judith B"
+                },
+                {
+                    "family": "Bouchard",
+                    "given": "Claude"
+                },
+                {
+                    "family": "Bowden",
+                    "given": "Donald W"
+                },
+                {
+                    "family": "Brandslund",
+                    "given": "Ivan"
+                },
+                {
+                    "family": "Brumpton",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Buring",
+                    "given": "Julie E"
+                },
+                {
+                    "family": "Caulfield",
+                    "given": "Mark J"
+                },
+                {
+                    "family": "Chambers",
+                    "given": "John C"
+                },
+                {
+                    "family": "Chandak",
+                    "given": "Giriraj R"
+                },
+                {
+                    "family": "Chanock",
+                    "given": "Stephen J"
+                },
+                {
+                    "family": "Chaturvedi",
+                    "given": "Nish"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Yii-Der Ida"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Zhengming"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Ching-Yu"
+                },
+                {
+                    "family": "Christophersen",
+                    "given": "Ingrid E"
+                },
+                {
+                    "family": "Ciullo",
+                    "given": "Marina"
+                },
+                {
+                    "family": "Cole",
+                    "given": "John W"
+                },
+                {
+                    "family": "Collins",
+                    "given": "Francis S"
+                },
+                {
+                    "family": "Cooper",
+                    "given": "Richard S"
+                },
+                {
+                    "family": "Cruz",
+                    "given": "Miguel"
+                },
+                {
+                    "family": "Cucca",
+                    "given": "Francesco"
+                },
+                {
+                    "family": "Adrienne Cupples",
+                    "given": "L"
+                },
+                {
+                    "family": "Cutler",
+                    "given": "Michael J"
+                },
+                {
+                    "family": "Damrauer",
+                    "given": "Scott M"
+                },
+                {
+                    "family": "Dantoft",
+                    "given": "Thomas M"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Borst",
+                    "given": "Gert J"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Groot",
+                    "given": "Lisette C P G M"
+                },
+                {
+                    "family": "De Jager",
+                    "given": "Philip L"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Kleijn",
+                    "given": "Dominique P V"
+                },
+                {
+                    "dropping-particle": "de",
+                    "family": "Silva",
+                    "given": "H Janaka"
+                },
+                {
+                    "family": "Dedoussis",
+                    "given": "George V"
+                },
+                {
+                    "dropping-particle": "den",
+                    "family": "Hollander",
+                    "given": "Anneke I"
+                },
+                {
+                    "family": "Du",
+                    "given": "Shufa"
+                },
+                {
+                    "family": "Easton",
+                    "given": "Douglas F"
+                },
+                {
+                    "family": "Elders",
+                    "given": "Petra J M"
+                },
+                {
+                    "family": "Heather Eliassen",
+                    "given": "A"
+                },
+                {
+                    "family": "Ellinor",
+                    "given": "Patrick T"
+                },
+                {
+                    "family": "Elmståhl",
+                    "given": "Sölve"
+                },
+                {
+                    "family": "Erdmann",
+                    "given": "Jeanette"
+                },
+                {
+                    "family": "Evans",
+                    "given": "Michele K"
+                },
+                {
+                    "family": "Fatkin",
+                    "given": "Diane"
+                },
+                {
+                    "family": "Feenstra",
+                    "given": "Bjarke"
+                },
+                {
+                    "family": "Feitosa",
+                    "given": "Mary F"
+                },
+                {
+                    "family": "Ferrucci",
+                    "given": "Luigi"
+                },
+                {
+                    "family": "Ford",
+                    "given": "Ian"
+                },
+                {
+                    "family": "Fornage",
+                    "given": "Myriam"
+                },
+                {
+                    "family": "Franke",
+                    "given": "Andre"
+                },
+                {
+                    "family": "Franks",
+                    "given": "Paul W"
+                },
+                {
+                    "family": "Freedman",
+                    "given": "Barry I"
+                },
+                {
+                    "family": "Gasparini",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Gieger",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Girotto",
+                    "given": "Giorgia"
+                },
+                {
+                    "family": "Goddard",
+                    "given": "Michael E"
+                },
+                {
+                    "family": "Golightly",
+                    "given": "Yvonne M"
+                },
+                {
+                    "family": "Gonzalez-Villalpando",
+                    "given": "Clicerio"
+                },
+                {
+                    "family": "Gordon-Larsen",
+                    "given": "Penny"
+                },
+                {
+                    "family": "Grallert",
+                    "given": "Harald"
+                },
+                {
+                    "family": "Grant",
+                    "given": "Struan F A"
+                },
+                {
+                    "family": "Grarup",
+                    "given": "Niels"
+                },
+                {
+                    "family": "Griffiths",
+                    "given": "Lyn"
+                },
+                {
+                    "family": "Groop",
+                    "given": "Leif"
+                },
+                {
+                    "family": "Gudnason",
+                    "given": "Vilmundur"
+                },
+                {
+                    "family": "Haiman",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Hakonarson",
+                    "given": "Hakon"
+                },
+                {
+                    "family": "Hansen",
+                    "given": "Torben"
+                },
+                {
+                    "family": "Hartman",
+                    "given": "Catharina A"
+                },
+                {
+                    "family": "Hattersley",
+                    "given": "Andrew T"
+                },
+                {
+                    "family": "Hayward",
+                    "given": "Caroline"
+                },
+                {
+                    "family": "Heckbert",
+                    "given": "Susan R"
+                },
+                {
+                    "family": "Heng",
+                    "given": "Chew-Kiat"
+                },
+                {
+                    "family": "Hengstenberg",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Hewitt",
+                    "given": "Alex W"
+                },
+                {
+                    "family": "Hishigaki",
+                    "given": "Haretsugu"
+                },
+                {
+                    "family": "Hoyng",
+                    "given": "Carel B"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Paul L"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Hunt",
+                    "given": "Steven C"
+                },
+                {
+                    "family": "Hveem",
+                    "given": "Kristian"
+                },
+                {
+                    "family": "Hyppönen",
+                    "given": "Elina"
+                },
+                {
+                    "family": "Iacono",
+                    "given": "William G"
+                },
+                {
+                    "family": "Ichihara",
+                    "given": "Sahoko"
+                },
+                {
+                    "family": "Arfan Ikram",
+                    "given": "M"
+                },
+                {
+                    "family": "Isasi",
+                    "given": "Carmen R"
+                },
+                {
+                    "family": "Jackson",
+                    "given": "Rebecca D"
+                },
+                {
+                    "family": "Jarvelin",
+                    "given": "Marjo-Riitta"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Zi-Bing"
+                },
+                {
+                    "family": "Jöckel",
+                    "given": "Karl-Heinz"
+                },
+                {
+                    "family": "Joshi",
+                    "given": "Peter K"
+                },
+                {
+                    "family": "Jousilahti",
+                    "given": "Pekka"
+                },
+                {
+                    "family": "Wouter Jukema",
+                    "given": "J"
+                },
+                {
+                    "family": "Kähönen",
+                    "given": "Mika"
+                },
+                {
+                    "family": "Kamatani",
+                    "given": "Yoichiro"
+                },
+                {
+                    "family": "Kang",
+                    "given": "Kui Dong"
+                },
+                {
+                    "family": "Kaprio",
+                    "given": "Jaakko"
+                },
+                {
+                    "family": "Kardia",
+                    "given": "Sharon L R"
+                },
+                {
+                    "family": "Karpe",
+                    "given": "Fredrik"
+                },
+                {
+                    "family": "Kato",
+                    "given": "Norihiro"
+                },
+                {
+                    "family": "Kee",
+                    "given": "Frank"
+                },
+                {
+                    "family": "Kessler",
+                    "given": "Thorsten"
+                },
+                {
+                    "family": "Khera",
+                    "given": "Amit V"
+                },
+                {
+                    "family": "Khor",
+                    "given": "Chiea Chuen"
+                },
+                {
+                    "family": "Kiemeney",
+                    "given": "Lambertus A L"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Bong-Jo"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Eung Kwon"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Hyung-Lae"
+                },
+                {
+                    "family": "Kirchhof",
+                    "given": "Paulus"
+                },
+                {
+                    "family": "Kivimaki",
+                    "given": "Mika"
+                },
+                {
+                    "family": "Koh",
+                    "given": "Woon-Puay"
+                },
+                {
+                    "family": "Koistinen",
+                    "given": "Heikki A"
+                },
+                {
+                    "family": "Kolovou",
+                    "given": "Genovefa D"
+                },
+                {
+                    "family": "Kooner",
+                    "given": "Jaspal S"
+                },
+                {
+                    "family": "Kooperberg",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Köttgen",
+                    "given": "Anna"
+                },
+                {
+                    "family": "Kovacs",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Kraaijeveld",
+                    "given": "Adriaan"
+                },
+                {
+                    "family": "Kraft",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Krauss",
+                    "given": "Ronald M"
+                },
+                {
+                    "family": "Kumari",
+                    "given": "Meena"
+                },
+                {
+                    "family": "Kutalik",
+                    "given": "Zoltan"
+                },
+                {
+                    "family": "Laakso",
+                    "given": "Markku"
+                },
+                {
+                    "family": "Lange",
+                    "given": "Leslie A"
+                },
+                {
+                    "family": "Langenberg",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Launer",
+                    "given": "Lenore J"
+                },
+                {
+                    "family": "Le Marchand",
+                    "given": "Loic"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Hyejin"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Nanette R"
+                },
+                {
+                    "family": "Lehtimäki",
+                    "given": "Terho"
+                },
+                {
+                    "family": "Li",
+                    "given": "Huaixing"
+                },
+                {
+                    "family": "Li",
+                    "given": "Liming"
+                },
+                {
+                    "family": "Lieb",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Xu"
+                },
+                {
+                    "family": "Lind",
+                    "given": "Lars"
+                },
+                {
+                    "family": "Linneberg",
+                    "given": "Allan"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Ching-Ti"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Jianjun"
+                },
+                {
+                    "family": "Loeffler",
+                    "given": "Markus"
+                },
+                {
+                    "family": "London",
+                    "given": "Barry"
+                },
+                {
+                    "family": "Lubitz",
+                    "given": "Steven A"
+                },
+                {
+                    "family": "Lye",
+                    "given": "Stephen J"
+                },
+                {
+                    "family": "Mackey",
+                    "given": "David A"
+                },
+                {
+                    "family": "Mägi",
+                    "given": "Reedik"
+                },
+                {
+                    "family": "Magnusson",
+                    "given": "Patrik K E"
+                },
+                {
+                    "family": "Marcus",
+                    "given": "Gregory M"
+                },
+                {
+                    "family": "Vidal",
+                    "given": "Pedro Marques"
+                },
+                {
+                    "family": "Martin",
+                    "given": "Nicholas G"
+                },
+                {
+                    "family": "März",
+                    "given": "Winfried"
+                },
+                {
+                    "family": "Matsuda",
+                    "given": "Fumihiko"
+                },
+                {
+                    "family": "McGarrah",
+                    "given": "Robert W"
+                },
+                {
+                    "family": "McGue",
+                    "given": "Matt"
+                },
+                {
+                    "family": "McKnight",
+                    "given": "Amy Jayne"
+                },
+                {
+                    "family": "Medland",
+                    "given": "Sarah E"
+                },
+                {
+                    "family": "Mellström",
+                    "given": "Dan"
+                },
+                {
+                    "family": "Metspalu",
+                    "given": "Andres"
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "Braxton D"
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Mook-Kanamori",
+                    "given": "Dennis O"
+                },
+                {
+                    "family": "Morris",
+                    "given": "Andrew D"
+                },
+                {
+                    "family": "Mucci",
+                    "given": "Lorelei A"
+                },
+                {
+                    "family": "Munroe",
+                    "given": "Patricia B"
+                },
+                {
+                    "family": "Nalls",
+                    "given": "Mike A"
+                },
+                {
+                    "family": "Nazarian",
+                    "given": "Saman"
+                },
+                {
+                    "family": "Nelson",
+                    "given": "Amanda E"
+                },
+                {
+                    "family": "Neville",
+                    "given": "Matt J"
+                },
+                {
+                    "family": "Newton-Cheh",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Nielsen",
+                    "given": "Christopher S"
+                },
+                {
+                    "family": "Nöthen",
+                    "given": "Markus M"
+                },
+                {
+                    "family": "Ohlsson",
+                    "given": "Claes"
+                },
+                {
+                    "family": "Oldehinkel",
+                    "given": "Albertine J"
+                },
+                {
+                    "family": "Orozco",
+                    "given": "Lorena"
+                },
+                {
+                    "family": "Pahkala",
+                    "given": "Katja"
+                },
+                {
+                    "family": "Pajukanta",
+                    "given": "Päivi"
+                },
+                {
+                    "family": "Palmer",
+                    "given": "Colin N A"
+                },
+                {
+                    "family": "Parra",
+                    "given": "Esteban J"
+                },
+                {
+                    "family": "Pattaro",
+                    "given": "Cristian"
+                },
+                {
+                    "family": "Pedersen",
+                    "given": "Oluf"
+                },
+                {
+                    "family": "Pennell",
+                    "given": "Craig E"
+                },
+                {
+                    "family": "Penninx",
+                    "given": "Brenda W J"
+                },
+                {
+                    "family": "Perusse",
+                    "given": "Louis"
+                },
+                {
+                    "family": "Peters",
+                    "given": "Annette"
+                },
+                {
+                    "family": "Peyser",
+                    "given": "Patricia A"
+                },
+                {
+                    "family": "Porteous",
+                    "given": "David J"
+                },
+                {
+                    "family": "Posthuma",
+                    "given": "Danielle"
+                },
+                {
+                    "family": "Power",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Pramstaller",
+                    "given": "Peter P"
+                },
+                {
+                    "family": "Province",
+                    "given": "Michael A"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Qibin"
+                },
+                {
+                    "family": "Qu",
+                    "given": "Jia"
+                },
+                {
+                    "family": "Rader",
+                    "given": "Daniel J"
+                },
+                {
+                    "family": "Raitakari",
+                    "given": "Olli T"
+                },
+                {
+                    "family": "Ralhan",
+                    "given": "Sarju"
+                },
+                {
+                    "family": "Rallidis",
+                    "given": "Loukianos S"
+                },
+                {
+                    "family": "Rao",
+                    "given": "Dabeeru C"
+                },
+                {
+                    "family": "Redline",
+                    "given": "Susan"
+                },
+                {
+                    "family": "Reilly",
+                    "given": "Dermot F"
+                },
+                {
+                    "family": "Reiner",
+                    "given": "Alexander P"
+                },
+                {
+                    "family": "Rhee",
+                    "given": "Sang Youl"
+                },
+                {
+                    "family": "Ridker",
+                    "given": "Paul M"
+                },
+                {
+                    "family": "Rienstra",
+                    "given": "Michiel"
+                },
+                {
+                    "family": "Ripatti",
+                    "given": "Samuli"
+                },
+                {
+                    "family": "Ritchie",
+                    "given": "Marylyn D"
+                },
+                {
+                    "family": "Roden",
+                    "given": "Dan M"
+                },
+                {
+                    "family": "Rosendaal",
+                    "given": "Frits R"
+                },
+                {
+                    "family": "Rotter",
+                    "given": "Jerome I"
+                },
+                {
+                    "family": "Rudan",
+                    "given": "Igor"
+                },
+                {
+                    "family": "Rutters",
+                    "given": "Femke"
+                },
+                {
+                    "family": "Sabanayagam",
+                    "given": "Charumathi"
+                },
+                {
+                    "family": "Saleheen",
+                    "given": "Danish"
+                },
+                {
+                    "family": "Salomaa",
+                    "given": "Veikko"
+                },
+                {
+                    "family": "Samani",
+                    "given": "Nilesh J"
+                },
+                {
+                    "family": "Sanghera",
+                    "given": "Dharambir K"
+                },
+                {
+                    "family": "Sattar",
+                    "given": "Naveed"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Börge"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Helena"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Reinhold"
+                },
+                {
+                    "family": "Schulze",
+                    "given": "Matthias B"
+                },
+                {
+                    "family": "Schunkert",
+                    "given": "Heribert"
+                },
+                {
+                    "family": "Scott",
+                    "given": "Laura J"
+                },
+                {
+                    "family": "Scott",
+                    "given": "Rodney J"
+                },
+                {
+                    "family": "Sever",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Shiroma",
+                    "given": "Eric J"
+                },
+                {
+                    "family": "Benjamin Shoemaker",
+                    "given": "M"
+                },
+                {
+                    "family": "Shu",
+                    "given": "Xiao-Ou"
+                },
+                {
+                    "family": "Simonsick",
+                    "given": "Eleanor M"
+                },
+                {
+                    "family": "Sims",
+                    "given": "Mario"
+                },
+                {
+                    "family": "Singh",
+                    "given": "Jai Rup"
+                },
+                {
+                    "family": "Singleton",
+                    "given": "Andrew B"
+                },
+                {
+                    "family": "Sinner",
+                    "given": "Moritz F"
+                },
+                {
+                    "family": "Gustav Smith",
+                    "given": "J"
+                },
+                {
+                    "family": "Snieder",
+                    "given": "Harold"
+                },
+                {
+                    "family": "Spector",
+                    "given": "Tim D"
+                },
+                {
+                    "family": "Stampfer",
+                    "given": "Meir J"
+                },
+                {
+                    "family": "Stark",
+                    "given": "Klaus J"
+                },
+                {
+                    "family": "Strachan",
+                    "given": "David P"
+                },
+                {
+                    "dropping-particle": "t",
+                    "family": "Hart",
+                    "given": "Leen M"
+                },
+                {
+                    "family": "Tabara",
+                    "given": "Yasuharu"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Hua"
+                },
+                {
+                    "family": "Tardif",
+                    "given": "Jean-Claude"
+                },
+                {
+                    "family": "Thanaraj",
+                    "given": "Thangavel A"
+                },
+                {
+                    "family": "Timpson",
+                    "given": "Nicholas J"
+                },
+                {
+                    "family": "Tönjes",
+                    "given": "Anke"
+                },
+                {
+                    "family": "Tremblay",
+                    "given": "Angelo"
+                },
+                {
+                    "family": "Tuomi",
+                    "given": "Tiinamaija"
+                },
+                {
+                    "family": "Tuomilehto",
+                    "given": "Jaakko"
+                },
+                {
+                    "family": "Tusié-Luna",
+                    "given": "Maria-Teresa"
+                },
+                {
+                    "family": "Uitterlinden",
+                    "given": "Andre G"
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Dam",
+                    "given": "Rob M"
+                },
+                {
+                    "dropping-particle": "van der",
+                    "family": "Harst",
+                    "given": "Pim"
+                },
+                {
+                    "family": "Van der Velde",
+                    "given": "Nathalie"
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Duijn",
+                    "given": "Cornelia M"
+                },
+                {
+                    "dropping-particle": "van",
+                    "family": "Schoor",
+                    "given": "Natasja"
+                },
+                {
+                    "family": "Vitart",
+                    "given": "Veronique"
+                },
+                {
+                    "family": "Völker",
+                    "given": "Uwe"
+                },
+                {
+                    "family": "Vollenweider",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Völzke",
+                    "given": "Henry"
+                },
+                {
+                    "family": "Vrieze",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Wacher-Rodarte",
+                    "given": "Niels H"
+                },
+                {
+                    "family": "Walker",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Ya Xing"
+                },
+                {
+                    "family": "Wareham",
+                    "given": "Nicholas J"
+                },
+                {
+                    "family": "Watanabe",
+                    "given": "Richard M"
+                },
+                {
+                    "family": "Watkins",
+                    "given": "Hugh"
+                },
+                {
+                    "family": "Weir",
+                    "given": "David R"
+                },
+                {
+                    "family": "Werge",
+                    "given": "Thomas M"
+                },
+                {
+                    "family": "Widen",
+                    "given": "Elisabeth"
+                },
+                {
+                    "family": "Wilkens",
+                    "given": "Lynne R"
+                },
+                {
+                    "family": "Willemsen",
+                    "given": "Gonneke"
+                },
+                {
+                    "family": "Willett",
+                    "given": "Walter C"
+                },
+                {
+                    "family": "Wilson",
+                    "given": "James F"
+                },
+                {
+                    "family": "Wong",
+                    "given": "Tien-Yin"
+                },
+                {
+                    "family": "Woo",
+                    "given": "Jeong-Taek"
+                },
+                {
+                    "family": "Wright",
+                    "given": "Alan F"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Jer-Yuarn"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Huichun"
+                },
+                {
+                    "family": "Yajnik",
+                    "given": "Chittaranjan S"
+                },
+                {
+                    "family": "Yokota",
+                    "given": "Mitsuhiro"
+                },
+                {
+                    "family": "Yuan",
+                    "given": "Jian-Min"
+                },
+                {
+                    "family": "Zeggini",
+                    "given": "Eleftheria"
+                },
+                {
+                    "family": "Zemel",
+                    "given": "Babette S"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Xiaofeng"
+                },
+                {
+                    "family": "Zmuda",
+                    "given": "Joseph M"
+                },
+                {
+                    "family": "Zonderman",
+                    "given": "Alan B"
+                },
+                {
+                    "family": "Zwart",
+                    "given": "John-Anker"
+                },
+                {
+                    "literal": "23andMe Research Team"
+                },
+                {
+                    "literal": "VA Million Veteran Program"
+                },
+                {
+                    "literal": "DiscovEHR (DiscovEHR and MyCode Community Health Initiative)"
+                },
+                {
+                    "literal": "eMERGE (Electronic Medical Records and Genomics Network)"
+                },
+                {
+                    "literal": "Lifelines Cohort Study"
+                },
+                {
+                    "literal": "Regeneron Genetics Center"
+                },
+                {
+                    "literal": "The PRACTICAL Consortium"
+                },
+                {
+                    "literal": "Understanding Society Scientific Group"
+                },
+                {
+                    "family": "Chasman",
+                    "given": "Daniel I"
+                },
+                {
+                    "family": "Cho",
+                    "given": "Yoon Shin"
+                },
+                {
+                    "family": "Heid",
+                    "given": "Iris M"
+                },
+                {
+                    "family": "McCarthy",
+                    "given": "Mark I"
+                },
+                {
+                    "family": "Ng",
+                    "given": "Maggie C Y"
+                },
+                {
+                    "family": "O’Donnell",
+                    "given": "Christopher J"
+                },
+                {
+                    "family": "Rivadeneira",
+                    "given": "Fernando"
+                },
+                {
+                    "family": "Thorsteinsdottir",
+                    "given": "Unnur"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Yan V"
+                },
+                {
+                    "family": "Shyong Tai",
+                    "given": "E"
+                },
+                {
+                    "family": "Boehnke",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Deloukas",
+                    "given": "Panos"
+                },
+                {
+                    "family": "Justice",
+                    "given": "Anne E"
+                },
+                {
+                    "family": "Lindgren",
+                    "given": "Cecilia M"
+                },
+                {
+                    "family": "Loos",
+                    "given": "Ruth J F"
+                },
+                {
+                    "family": "Mohlke",
+                    "given": "Karen L"
+                },
+                {
+                    "family": "North",
+                    "given": "Kari E"
+                },
+                {
+                    "family": "Stefansson",
+                    "given": "Kari"
+                },
+                {
+                    "family": "Walters",
+                    "given": "Robin G"
+                },
+                {
+                    "family": "Winkler",
+                    "given": "Thomas W"
+                },
+                {
+                    "family": "Young",
+                    "given": "Kristin L"
+                },
+                {
+                    "family": "Loh",
+                    "given": "Po-Ru"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Esko",
+                    "given": "Tõnu"
+                },
+                {
+                    "family": "Assimes",
+                    "given": "Themistocles L"
+                },
+                {
+                    "family": "Auton",
+                    "given": "Adam"
+                },
+                {
+                    "family": "Abecasis",
+                    "given": "Goncalo R"
+                },
+                {
+                    "family": "Willer",
+                    "given": "Cristen J"
+                },
+                {
+                    "family": "Locke",
+                    "given": "Adam E"
+                },
+                {
+                    "family": "Berndt",
+                    "given": "Sonja I"
+                },
+                {
+                    "family": "Lettre",
+                    "given": "Guillaume"
+                },
+                {
+                    "family": "Frayling",
+                    "given": "Timothy M"
+                },
+                {
+                    "family": "Okada",
+                    "given": "Yukinori"
+                },
+                {
+                    "family": "Wood",
+                    "given": "Andrew R"
+                },
+                {
+                    "family": "Visscher",
+                    "given": "Peter M"
+                },
+                {
+                    "family": "Hirschhorn",
+                    "given": "Joel N"
+                }
+            ],
+            "container-title": "bioRxiv",
+            "id": "Yengo2022-yw",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1
+                    ]
+                ]
+            },
+            "page": "2022.01.07.475305",
+            "title": "A saturated map of common genetic variants associated with human height from 5.4 million individuals of diverse ancestries",
+            "type": "manuscript"
+        },
+        {
             "DOI": "10.1002/dvdy.21341",
             "ISSN": "1058-8388",
             "PMID": "17937397",
@@ -3168,6 +6454,32 @@
             "volume": "12"
         },
         {
+            "DOI": "10.3908/wormatlas.1.18",
+            "author": [
+                {
+                    "family": "Altun",
+                    "given": "Zeynep F"
+                },
+                {
+                    "family": "Hall",
+                    "given": "David H"
+                }
+            ],
+            "container-title": "WormAtlas",
+            "id": "Altun2005-jf",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        10
+                    ]
+                ]
+            },
+            "publisher": "Albert Einstein College of Medicine",
+            "title": "WormAtlas hermaphrodite handbook - nervous system - general description",
+            "type": "article-journal"
+        },
+        {
             "author": [
                 {
                     "family": "Team",
@@ -3212,6 +6524,79 @@
             "title": "Model selection and multimodel inference: A practical Information-Theoretic approach",
             "title-short": "Model selection and multimodel inference",
             "type": "book"
+        },
+        {
+            "DOI": "10.1038/s41437-022-00528-y",
+            "ISSN": "0018-067X, 1365-2540",
+            "PMID": "35383317",
+            "author": [
+                {
+                    "family": "Maulana",
+                    "given": "Muhammad I"
+                },
+                {
+                    "family": "Riksen",
+                    "given": "Joost A G"
+                },
+                {
+                    "family": "Snoek",
+                    "given": "Basten L"
+                },
+                {
+                    "family": "Kammenga",
+                    "given": "Jan E"
+                },
+                {
+                    "family": "Sterken",
+                    "given": "Mark G"
+                }
+            ],
+            "container-title": "Heredity",
+            "id": "Maulana2022-jy",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        4
+                    ]
+                ]
+            },
+            "title": "The genetic architecture underlying body-size traits plasticity over different temperatures and developmental stages in caenorhabditis elegans",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1042/bj3550249",
+            "ISSN": "0264-6021",
+            "author": [
+                {
+                    "family": "Gillooly",
+                    "given": "David J"
+                },
+                {
+                    "family": "Simonsen",
+                    "given": "Anne"
+                },
+                {
+                    "family": "Stenmark",
+                    "given": "Harald"
+                }
+            ],
+            "container-title": "Biochem. J",
+            "id": "Gillooly2001-tu",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001,
+                        4
+                    ]
+                ]
+            },
+            "page": "249-258",
+            "publisher": "Portland Press",
+            "title": "Cellular functions of phosphatidylinositol 3-phosphate and FYVE domain proteins",
+            "type": "article-journal",
+            "volume": "355"
         },
         {
             "DOI": "10.1371/journal.pgen.0020222",
@@ -3533,6 +6918,53 @@
             "volume": "125"
         },
         {
+            "DOI": "10.1046/j.1365-2443.2000.00361.x",
+            "ISSN": "1356-9597, 1365-2443",
+            "PMID": "10971653",
+            "author": [
+                {
+                    "family": "Asahina",
+                    "given": "M"
+                },
+                {
+                    "family": "Ishihara",
+                    "given": "T"
+                },
+                {
+                    "family": "Jindra",
+                    "given": "M"
+                },
+                {
+                    "family": "Kohara",
+                    "given": "Y"
+                },
+                {
+                    "family": "Katsura",
+                    "given": "I"
+                },
+                {
+                    "family": "Hirose",
+                    "given": "S"
+                }
+            ],
+            "container-title": "Genes Cells",
+            "id": "Asahina2000-zz",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000,
+                        9
+                    ]
+                ]
+            },
+            "page": "711-723",
+            "publisher": "Wiley",
+            "title": "The conserved nuclear receptor Ftz-F1 is required for embryogenesis, moulting and reproduction in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
             "DOI": "10.1523/JNEUROSCI.1833-05.2005",
             "ISSN": "0270-6474, 1529-2401",
             "PMID": "16079398",
@@ -3603,6 +7035,63 @@
             "title": "Mechanosensitivity and compositional dynamics of cell-matrix adhesions",
             "type": "article-journal",
             "volume": "14"
+        },
+        {
+            "DOI": "10.7554/elife.40260",
+            "author": [
+                {
+                    "family": "Zdraljevic",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Fox",
+                    "given": "Bennett William"
+                },
+                {
+                    "family": "Strand",
+                    "given": "Christine"
+                },
+                {
+                    "family": "Panda",
+                    "given": "Oishika"
+                },
+                {
+                    "family": "Tenjo",
+                    "given": "Francisco J"
+                },
+                {
+                    "family": "Brady",
+                    "given": "Shannon C"
+                },
+                {
+                    "family": "Crombie",
+                    "given": "Tim A"
+                },
+                {
+                    "family": "Doench",
+                    "given": "John G"
+                },
+                {
+                    "family": "Schroeder",
+                    "given": "Frank C"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                }
+            ],
+            "container-title": "eLife",
+            "id": "Zdraljevic2019-uf",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "title": "Natural variation in c. Elegans arsenic toxicity is explained by differences in branched chain amino acid metabolism",
+            "type": "",
+            "volume": "8"
         },
         {
             "DOI": "10.1016/j.cub.2006.03.021",
@@ -4262,6 +7751,50 @@
             "volume": "20"
         },
         {
+            "DOI": "10.14348/molcells.2021.2236",
+            "ISSN": "1016-8478, 0219-1032",
+            "PMID": "33692220",
+            "author": [
+                {
+                    "family": "Cho",
+                    "given": "Joshua Young"
+                },
+                {
+                    "family": "Choi",
+                    "given": "Tae-Woo"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Seung Hyun"
+                },
+                {
+                    "family": "Ahnn",
+                    "given": "Joohong"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Sun-Kyung"
+                }
+            ],
+            "container-title": "Mol. Cells",
+            "id": "Cho2021-xa",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        3
+                    ]
+                ]
+            },
+            "keyword": "Caenorhabditis elegans; K-means clustering; dumpy; long; small",
+            "page": "160-167",
+            "publisher": "Korean Society for Molecular; Cellular Biology",
+            "title": "Morphological characterization of small, dumpy, and long phenotypes in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "44"
+        },
+        {
             "DOI": "10.1016/0012-1606(81)90204-9",
             "ISSN": "0012-1606",
             "PMID": "6269931",
@@ -4429,6 +7962,58 @@
             "volume": "200"
         },
         {
+            "ISBN": "9780123838827",
+            "author": [
+                {
+                    "family": "Cameron",
+                    "given": "Noel"
+                },
+                {
+                    "family": "Bogin",
+                    "given": "Barry"
+                }
+            ],
+            "id": "Cameron2012-fz",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        6
+                    ]
+                ]
+            },
+            "publisher": "Academic Press",
+            "title": "Human growth and development",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1111/j.1558-5646.2011.01486.x",
+            "ISSN": "0014-3820, 1558-5646",
+            "PMID": "22220860",
+            "author": [
+                {
+                    "family": "Rockman",
+                    "given": "Matthew V"
+                }
+            ],
+            "container-title": "Evolution",
+            "id": "Rockman2012-pu",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1
+                    ]
+                ]
+            },
+            "page": "1-17",
+            "title": "The QTN program and the alleles that matter for evolution: All that’s gold does not glitter",
+            "title-short": "The QTN program and the alleles that matter for evolution",
+            "type": "article-journal",
+            "volume": "66"
+        },
+        {
             "DOI": "10.1016/j.cub.2011.10.054",
             "ISSN": "0960-9822, 1879-0445",
             "PMID": "22137474",
@@ -4461,6 +8046,103 @@
             "title": "LIN-42/PERIOD controls cyclical and developmental progression of c. Elegans molts",
             "type": "article-journal",
             "volume": "21"
+        },
+        {
+            "DOI": "10.1038/ncomms10460",
+            "ISSN": "2041-1723",
+            "PMID": "26795439",
+            "author": [
+                {
+                    "family": "Hayward",
+                    "given": "Jessica J"
+                },
+                {
+                    "family": "Castelhano",
+                    "given": "Marta G"
+                },
+                {
+                    "family": "Oliveira",
+                    "given": "Kyle C"
+                },
+                {
+                    "family": "Corey",
+                    "given": "Elizabeth"
+                },
+                {
+                    "family": "Balkman",
+                    "given": "Cheryl"
+                },
+                {
+                    "family": "Baxter",
+                    "given": "Tara L"
+                },
+                {
+                    "family": "Casal",
+                    "given": "Margret L"
+                },
+                {
+                    "family": "Center",
+                    "given": "Sharon A"
+                },
+                {
+                    "family": "Fang",
+                    "given": "Meiying"
+                },
+                {
+                    "family": "Garrison",
+                    "given": "Susan J"
+                },
+                {
+                    "family": "Kalla",
+                    "given": "Sara E"
+                },
+                {
+                    "family": "Korniliev",
+                    "given": "Pavel"
+                },
+                {
+                    "family": "Kotlikoff",
+                    "given": "Michael I"
+                },
+                {
+                    "family": "Moise",
+                    "given": "N S"
+                },
+                {
+                    "family": "Shannon",
+                    "given": "Laura M"
+                },
+                {
+                    "family": "Simpson",
+                    "given": "Kenneth W"
+                },
+                {
+                    "family": "Sutter",
+                    "given": "Nathan B"
+                },
+                {
+                    "family": "Todhunter",
+                    "given": "Rory J"
+                },
+                {
+                    "family": "Boyko",
+                    "given": "Adam R"
+                }
+            ],
+            "container-title": "Nat. Commun.",
+            "id": "Hayward2016-gk",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        1
+                    ]
+                ]
+            },
+            "page": "10460",
+            "title": "Complex disease and phenotype mapping in the domestic dog",
+            "type": "article-journal",
+            "volume": "7"
         },
         {
             "DOI": "10.1534/genetics.114.170423",
@@ -4772,6 +8454,32 @@
             "volume": "204"
         },
         {
+            "DOI": "10.1093/genetics/130.1.195",
+            "ISSN": "0016-6731",
+            "PMID": "1732160",
+            "author": [
+                {
+                    "family": "Houle",
+                    "given": "D"
+                }
+            ],
+            "container-title": "Genetics",
+            "id": "Houle1992-vs",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1992,
+                        1
+                    ]
+                ]
+            },
+            "page": "195-204",
+            "title": "Comparing evolvability and variability of quantitative traits",
+            "type": "article-journal",
+            "volume": "130"
+        },
+        {
             "id": "noauthor_undated-gw",
             "note": "Accessed: 2021-3-16",
             "publisher": "https://CRAN.R-project.org/package=lokern",
@@ -4869,6 +8577,30 @@
             "volume": "213"
         },
         {
+            "DOI": "10.1016/j.tree.2005.06.001",
+            "author": [
+                {
+                    "family": "Pigliucci",
+                    "given": "Massimo"
+                }
+            ],
+            "container-title": "Trends in Ecology & Evolution",
+            "id": "Pigliucci2005-te",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005
+                    ]
+                ]
+            },
+            "number": "9",
+            "page": "481-486",
+            "title": "Evolution of phenotypic plasticity: Where are we going now?",
+            "title-short": "Evolution of phenotypic plasticity",
+            "type": "",
+            "volume": "20"
+        },
+        {
             "author": [
                 {
                     "family": "Mendel",
@@ -4916,6 +8648,32 @@
             "title": "Isolation and genetic characterization of cell-lineage mutants of the nematode caenorhabditis elegans",
             "type": "article-journal",
             "volume": "96"
+        },
+        {
+            "DOI": "10.1038/150563a0",
+            "ISSN": "0028-0836",
+            "author": [
+                {
+                    "family": "Waddington",
+                    "given": "C H"
+                }
+            ],
+            "container-title": "Nature",
+            "id": "Waddington1942-ih",
+            "issue": "3811",
+            "issued": {
+                "date-parts": [
+                    [
+                        1942,
+                        11
+                    ]
+                ]
+            },
+            "page": "563-565",
+            "publisher": "Nature Publishing Group",
+            "title": "CANALIZATION OF DEVELOPMENT AND THE INHERITANCE OF ACQUIRED CHARACTERS",
+            "type": "article-journal",
+            "volume": "150"
         },
         {
             "DOI": "10.1002/bies.201100168",
@@ -4970,6 +8728,45 @@
             "volume": "26"
         },
         {
+            "DOI": "10.1002/evl3.139",
+            "ISSN": "2056-3744",
+            "PMID": "31636939",
+            "author": [
+                {
+                    "family": "Bernstein",
+                    "given": "Max R"
+                },
+                {
+                    "family": "Zdraljevic",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                },
+                {
+                    "family": "Rockman",
+                    "given": "Matthew V"
+                }
+            ],
+            "container-title": "Evol Lett",
+            "id": "Bernstein2019-pq",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        10
+                    ]
+                ]
+            },
+            "keyword": "Complex traits; genetic architecture; linkage",
+            "page": "462-473",
+            "title": "Tightly linked antagonistic-effect loci underlie polygenic phenotypic variation in c. elegans",
+            "type": "article-journal",
+            "volume": "3"
+        },
+        {
             "DOI": "10.1371/journal.pcbi.1006943",
             "ISSN": "1553-734X, 1553-7358",
             "PMID": "31009449",
@@ -5012,6 +8809,130 @@
             "volume": "15"
         },
         {
+            "DOI": "10.7554/eLife.50465",
+            "ISSN": "2050-084X",
+            "PMID": "31793880",
+            "author": [
+                {
+                    "family": "Crombie",
+                    "given": "Tim A"
+                },
+                {
+                    "family": "Zdraljevic",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Cook",
+                    "given": "Daniel E"
+                },
+                {
+                    "family": "Tanny",
+                    "given": "Robyn E"
+                },
+                {
+                    "family": "Brady",
+                    "given": "Shannon C"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Ye"
+                },
+                {
+                    "family": "Evans",
+                    "given": "Kathryn S"
+                },
+                {
+                    "family": "Hahnel",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Daehan"
+                },
+                {
+                    "family": "Rodriguez",
+                    "given": "Briana C"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Gaotian"
+                },
+                {
+                    "dropping-particle": "van der",
+                    "family": "Zwagg",
+                    "given": "Joost"
+                },
+                {
+                    "family": "Kiontke",
+                    "given": "Karin"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                }
+            ],
+            "container-title": "Elife",
+            "id": "Crombie2019-ma",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        12
+                    ]
+                ]
+            },
+            "keyword": "Caenorhabditis elegans; Caenorhabditis oiwi; Hawaii; admixture; evolutionary biology; genetic diversity; genetics; genomics; niche",
+            "title": "Deep sampling of hawaiian caenorhabditis elegans reveals high genetic diversity and admixture with global populations",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "DOI": "10.1091/mbc.e05-12-1120",
+            "ISSN": "1059-1524",
+            "PMID": "16801682",
+            "author": [
+                {
+                    "family": "Nicot",
+                    "given": "Anne-Sophie"
+                },
+                {
+                    "family": "Fares",
+                    "given": "Hanna"
+                },
+                {
+                    "family": "Payrastre",
+                    "given": "Bernard"
+                },
+                {
+                    "family": "Chisholm",
+                    "given": "Andrew D"
+                },
+                {
+                    "family": "Labouesse",
+                    "given": "Michel"
+                },
+                {
+                    "family": "Laporte",
+                    "given": "Jocelyn"
+                }
+            ],
+            "container-title": "Mol. Biol. Cell",
+            "id": "Nicot2006-rn",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        7
+                    ]
+                ]
+            },
+            "page": "3062-3074",
+            "title": "The phosphoinositide kinase PIKfyve/Fab1p regulates terminal lysosome maturation in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
             "ISSN": "0037-9026",
             "author": [
                 {
@@ -5032,6 +8953,38 @@
             "title": "Le déterminisme du sexe chez un nématode libre hermaphrodite, rhabditis elegans maupas",
             "type": "article-journal",
             "volume": "137"
+        },
+        {
+            "author": [
+                {
+                    "family": "Riddle",
+                    "given": "Donald L"
+                },
+                {
+                    "family": "Blumenthal",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Meyer",
+                    "given": "Barbara J"
+                },
+                {
+                    "family": "Priess",
+                    "given": "James R"
+                }
+            ],
+            "id": "Riddle1997-jv",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997
+                    ]
+                ]
+            },
+            "publisher": "Cold Spring Harbor Laboratory Press",
+            "title": "Introduction: The neural circuit for locomotion",
+            "title-short": "Introduction",
+            "type": "book"
         },
         {
             "ISSN": "0021-9533",
@@ -5064,6 +9017,70 @@
             "title": "The size control of fission yeast revisited",
             "type": "article-journal",
             "volume": "109 ( Pt 12)"
+        },
+        {
+            "DOI": "10.1111/j.1365-2656.2011.01942.x",
+            "ISSN": "0021-8790, 1365-2656",
+            "PMID": "22269070",
+            "author": [
+                {
+                    "family": "Hector",
+                    "given": "Katie L"
+                },
+                {
+                    "family": "Nakagawa",
+                    "given": "Shinichi"
+                }
+            ],
+            "container-title": "J. Anim. Ecol.",
+            "id": "Hector2012-xi",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        5
+                    ]
+                ]
+            },
+            "page": "583-593",
+            "title": "Quantitative analysis of compensatory and catch-up growth in diverse taxa",
+            "type": "article-journal",
+            "volume": "81"
+        },
+        {
+            "DOI": "10.1073/pnas.0904036106",
+            "ISSN": "0027-8424, 1091-6490",
+            "PMID": "19903886",
+            "author": [
+                {
+                    "family": "Fang-Yen",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Avery",
+                    "given": "Leon"
+                },
+                {
+                    "family": "Samuel",
+                    "given": "Aravinthan D T"
+                }
+            ],
+            "container-title": "Proc. Natl. Acad. Sci. U. S. A.",
+            "id": "Fang-Yen2009-wx",
+            "issue": "47",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        11
+                    ]
+                ]
+            },
+            "page": "20093-20096",
+            "title": "Two size-selective mechanisms specifically trap bacteria-sized food particles in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "106"
         },
         {
             "DOI": "10.1016/j.cell.2014.11.022",
@@ -5457,6 +9474,164 @@
             "volume": "536"
         },
         {
+            "DOI": "10.1098/rstb.2007.2243",
+            "ISSN": "0962-8436",
+            "PMID": "18192181",
+            "author": [
+                {
+                    "family": "Telford",
+                    "given": "Maximilian J"
+                },
+                {
+                    "family": "Bourlat",
+                    "given": "Sarah J"
+                },
+                {
+                    "family": "Economou",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Papillon",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Rota-Stabelli",
+                    "given": "Omar"
+                }
+            ],
+            "container-title": "Philos. Trans. R. Soc. Lond. B Biol. Sci.",
+            "id": "Telford2008-ya",
+            "issue": "1496",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008,
+                        4
+                    ]
+                ]
+            },
+            "page": "1529-1537",
+            "title": "The evolution of the ecdysozoa",
+            "type": "article-journal",
+            "volume": "363"
+        },
+        {
+            "DOI": "10.1242/jeb.02070",
+            "ISSN": "0022-0949",
+            "PMID": "16731812",
+            "author": [
+                {
+                    "family": "Pigliucci",
+                    "given": "Massimo"
+                },
+                {
+                    "family": "Murren",
+                    "given": "Courtney J"
+                },
+                {
+                    "family": "Schlichting",
+                    "given": "Carl D"
+                }
+            ],
+            "container-title": "J. Exp. Biol.",
+            "id": "Pigliucci2006-gf",
+            "issue": "Pt 12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        6
+                    ]
+                ]
+            },
+            "page": "2362-2367",
+            "title": "Phenotypic plasticity and evolution by genetic assimilation",
+            "type": "article-journal",
+            "volume": "209"
+        },
+        {
+            "DOI": "10.1038/s41559-021-01435-x",
+            "ISSN": "2397-334X",
+            "PMID": "33820969",
+            "author": [
+                {
+                    "family": "Lee",
+                    "given": "Daehan"
+                },
+                {
+                    "family": "Zdraljevic",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Stevens",
+                    "given": "Lewis"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Ye"
+                },
+                {
+                    "family": "Tanny",
+                    "given": "Robyn E"
+                },
+                {
+                    "family": "Crombie",
+                    "given": "Timothy A"
+                },
+                {
+                    "family": "Cook",
+                    "given": "Daniel E"
+                },
+                {
+                    "family": "Webster",
+                    "given": "Amy K"
+                },
+                {
+                    "family": "Chirakar",
+                    "given": "Rojin"
+                },
+                {
+                    "family": "Baugh",
+                    "given": "L Ryan"
+                },
+                {
+                    "family": "Sterken",
+                    "given": "Mark G"
+                },
+                {
+                    "family": "Braendle",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Félix",
+                    "given": "Marie-Anne"
+                },
+                {
+                    "family": "Rockman",
+                    "given": "Matthew V"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                }
+            ],
+            "container-title": "Nat Ecol Evol",
+            "id": "Lee2021-wx",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        6
+                    ]
+                ]
+            },
+            "page": "794-807",
+            "title": "Balancing selection maintains hyper-divergent haplotypes in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
             "DOI": "10.1016/j.ydbio.2021.02.007",
             "ISSN": "0012-1606, 1095-564X",
             "PMID": "33636188",
@@ -5547,6 +9722,37 @@
             "volume": "7"
         },
         {
+            "DOI": "10.1371/journal.pone.0189135",
+            "ISSN": "1932-6203",
+            "PMID": "29236728",
+            "author": [
+                {
+                    "family": "Desmond",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Casale",
+                    "given": "Daniela"
+                }
+            ],
+            "container-title": "PLoS One",
+            "id": "Desmond2017-ek",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        12
+                    ]
+                ]
+            },
+            "page": "e0189135",
+            "title": "Catch-up growth in stunted children: Definitions and predictors",
+            "title-short": "Catch-up growth in stunted children",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
             "DOI": "10.1126/science.1258096",
             "ISSN": "0036-8075",
             "author": [
@@ -5573,6 +9779,35 @@
             "title": "The new frontier of genome engineering with CRISPR-Cas9",
             "type": "article-journal",
             "volume": "346"
+        },
+        {
+            "DOI": "10.1186/1471-213X-6-39",
+            "ISSN": "1471-213X",
+            "PMID": "16884547",
+            "author": [
+                {
+                    "family": "Mörck",
+                    "given": "Catarina"
+                },
+                {
+                    "family": "Pilon",
+                    "given": "Marc"
+                }
+            ],
+            "container-title": "BMC Dev. Biol.",
+            "id": "Morck2006-pl",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        8
+                    ]
+                ]
+            },
+            "page": "39",
+            "title": "C. Elegans feeding defective mutants have shorter body lengths and increased autophagy",
+            "type": "article-journal",
+            "volume": "6"
         },
         {
             "id": "noauthor_undated-zy",
@@ -5720,6 +9955,32 @@
             "type": "chapter"
         },
         {
+            "DOI": "10.3908/wormatlas.1.1",
+            "author": [
+                {
+                    "family": "Altun",
+                    "given": "Zeynep F"
+                },
+                {
+                    "family": "Hall",
+                    "given": "David H"
+                }
+            ],
+            "container-title": "WormAtlas",
+            "id": "Altun2006-zw",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006,
+                        6
+                    ]
+                ]
+            },
+            "publisher": "Albert Einstein College of Medicine",
+            "title": "WormAtas hermaphrodite handbook - introduction",
+            "type": "article-journal"
+        },
+        {
             "DOI": "10.1016/s0092-8674(00)81609-8",
             "ISSN": "0092-8674",
             "PMID": "9741632",
@@ -5864,6 +10125,31 @@
             "title": "A variant in the neuropeptide receptor npr-1 is a major determinant of caenorhabditis elegans growth and physiology",
             "type": "article-journal",
             "volume": "10"
+        },
+        {
+            "DOI": "10.1242/jcs.24.1.51",
+            "ISSN": "0021-9533",
+            "PMID": "893551",
+            "author": [
+                {
+                    "family": "Fantes",
+                    "given": "P A"
+                }
+            ],
+            "container-title": "J. Cell Sci.",
+            "id": "Fantes1977-nt",
+            "issued": {
+                "date-parts": [
+                    [
+                        1977,
+                        4
+                    ]
+                ]
+            },
+            "page": "51-67",
+            "title": "Control of cell size and cycle time in schizosaccharomyces pombe",
+            "type": "article-journal",
+            "volume": "24"
         },
         {
             "DOI": "10.1016/j.ijpddr.2021.04.001",
@@ -6040,6 +10326,44 @@
             "type": "article-journal"
         },
         {
+            "DOI": "10.1016/s0960-9822(01)00052-5",
+            "ISSN": "0960-9822",
+            "PMID": "11231151",
+            "author": [
+                {
+                    "family": "Maeda",
+                    "given": "I"
+                },
+                {
+                    "family": "Kohara",
+                    "given": "Y"
+                },
+                {
+                    "family": "Yamamoto",
+                    "given": "M"
+                },
+                {
+                    "family": "Sugimoto",
+                    "given": "A"
+                }
+            ],
+            "container-title": "Curr. Biol.",
+            "id": "Maeda2001-eo",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001,
+                        2
+                    ]
+                ]
+            },
+            "page": "171-176",
+            "title": "Large-scale analysis of gene function in caenorhabditis elegans by high-throughput RNAi",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
             "DOI": "10.1385/1-59745-151-7:275",
             "ISBN": "9781597451512",
             "author": [
@@ -6136,6 +10460,29 @@
             "title": "Molecular imaging perspectives",
             "type": "article-journal",
             "volume": "2"
+        },
+        {
+            "DOI": "10.1242/jeb.00433",
+            "author": [
+                {
+                    "family": "Avery",
+                    "given": "L"
+                }
+            ],
+            "container-title": "Journal of Experimental Biology",
+            "id": "Avery2003-gx",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "number": "14",
+            "page": "2441-2457",
+            "title": "Food transport in the c. Elegans pharynx",
+            "type": "",
+            "volume": "206"
         },
         {
             "ISBN": "9780879694333",
@@ -6452,6 +10799,68 @@
             "volume": "314"
         },
         {
+            "DOI": "10.1038/s41467-020-14785-0",
+            "author": [
+                {
+                    "family": "Essmann",
+                    "given": "Clara L"
+                },
+                {
+                    "family": "Martinez-Martinez",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Pryor",
+                    "given": "Rosina"
+                },
+                {
+                    "family": "Leung",
+                    "given": "Kit-Yi"
+                },
+                {
+                    "family": "Krishnan",
+                    "given": "Kalaivani Bala"
+                },
+                {
+                    "family": "Lui",
+                    "given": "Prudence Pokway"
+                },
+                {
+                    "family": "Greene",
+                    "given": "Nicholas D E"
+                },
+                {
+                    "family": "Brown",
+                    "given": "André E X"
+                },
+                {
+                    "family": "Pawar",
+                    "given": "Vijay M"
+                },
+                {
+                    "family": "Srinivasan",
+                    "given": "Mandayam A"
+                },
+                {
+                    "family": "Cabreiro",
+                    "given": "Filipe"
+                }
+            ],
+            "container-title": "Nature Communications",
+            "id": "Essmann2020-cb",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "number": "1",
+            "title": "Mechanical properties measured by atomic force microscopy define health biomarkers in ageing c. elegans",
+            "type": "",
+            "volume": "11"
+        },
+        {
             "DOI": "10.1073/pnas.1313715111",
             "ISSN": "0027-8424, 1091-6490",
             "PMID": "24550446",
@@ -6482,6 +10891,69 @@
             },
             "page": "3431-3435",
             "title": "Concerted control of escherichia coli cell division",
+            "type": "article-journal",
+            "volume": "111"
+        },
+        {
+            "DOI": "10.1073/pnas.1403232111",
+            "ISSN": "0027-8424, 1091-6490",
+            "PMID": "25349411",
+            "author": [
+                {
+                    "family": "Iyer-Biswas",
+                    "given": "Srividya"
+                },
+                {
+                    "family": "Wright",
+                    "given": "Charles S"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Jonathan T"
+                },
+                {
+                    "family": "Lo",
+                    "given": "Klevin"
+                },
+                {
+                    "family": "Burov",
+                    "given": "Stanislav"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Yihan"
+                },
+                {
+                    "family": "Crooks",
+                    "given": "Gavin E"
+                },
+                {
+                    "family": "Crosson",
+                    "given": "Sean"
+                },
+                {
+                    "family": "Dinner",
+                    "given": "Aaron R"
+                },
+                {
+                    "family": "Scherer",
+                    "given": "Norbert F"
+                }
+            ],
+            "container-title": "Proc. Natl. Acad. Sci. U. S. A.",
+            "id": "Iyer-Biswas2014-ik",
+            "issue": "45",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        11
+                    ]
+                ]
+            },
+            "keyword": "Arrhenius law; Hinshelwood cycle; cell-to-cell variability; exponential growth; single-cell dynamics",
+            "page": "15912-15917",
+            "title": "Scaling laws governing stochastic growth and division of single bacterial cells",
             "type": "article-journal",
             "volume": "111"
         },
@@ -6564,6 +11036,36 @@
             "volume": "13"
         },
         {
+            "DOI": "10.1093/genetics/iyab156",
+            "ISSN": "0016-6731, 1943-2631",
+            "PMID": "35134197",
+            "author": [
+                {
+                    "family": "Andersen",
+                    "given": "Erik C"
+                },
+                {
+                    "family": "Rockman",
+                    "given": "Matthew V"
+                }
+            ],
+            "container-title": "Genetics",
+            "id": "Andersen2022-su",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Caenorhabditis ; QTL mapping; WormBook; genetic variation; quantitative genetics; recombinant inbred lines",
+            "title": "Natural genetic variation as a tool for discovery in caenorhabditis nematodes",
+            "type": "article-journal",
+            "volume": "220"
+        },
+        {
             "DOI": "10.1371/journal.pgen.1000419",
             "ISSN": "1553-7390, 1553-7404",
             "PMID": "19283065",
@@ -6592,6 +11094,40 @@
             "title": "Recombinational landscape and population genomics of caenorhabditis elegans",
             "type": "article-journal",
             "volume": "5"
+        },
+        {
+            "DOI": "10.1111/j.1558-5646.2008.00503.x",
+            "ISSN": "0014-3820, 1558-5646",
+            "PMID": "18752606",
+            "author": [
+                {
+                    "family": "Rocha",
+                    "given": "Felipe"
+                },
+                {
+                    "family": "Medeiros",
+                    "given": "Hermes F"
+                },
+                {
+                    "family": "Klaczko",
+                    "given": "Louis Bernard"
+                }
+            ],
+            "container-title": "Evolution",
+            "id": "Rocha2009-zc",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        1
+                    ]
+                ]
+            },
+            "page": "280-287",
+            "title": "The reaction norm for abdominal pigmentation and its curve in drosophila mediopunctata depend on the mean phenotypic value",
+            "type": "article-journal",
+            "volume": "63"
         },
         {
             "DOI": "10.1214/aos/1176344136",
@@ -6862,6 +11398,111 @@
             "publisher": "Github",
             "title": "Linkagemapping",
             "type": ""
+        },
+        {
+            "DOI": "10.1534/g3.114.013151",
+            "ISSN": "2160-1836",
+            "PMID": "25128438",
+            "author": [
+                {
+                    "family": "Snoek",
+                    "given": "L Basten"
+                },
+                {
+                    "family": "Orbidans",
+                    "given": "Helen E"
+                },
+                {
+                    "family": "Stastna",
+                    "given": "Jana J"
+                },
+                {
+                    "family": "Aartse",
+                    "given": "Aafke"
+                },
+                {
+                    "family": "Rodriguez",
+                    "given": "Miriam"
+                },
+                {
+                    "family": "Riksen",
+                    "given": "Joost A G"
+                },
+                {
+                    "family": "Kammenga",
+                    "given": "Jan E"
+                },
+                {
+                    "family": "Harvey",
+                    "given": "Simon C"
+                }
+            ],
+            "container-title": "G3",
+            "id": "Snoek2014-tv",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "Bateson-Dobzhansky-Muller; C. elegans; QTL; introgression line; negative epistasis; reproductive isolation",
+            "page": "1813-1823",
+            "title": "Widespread genomic incompatibilities in caenorhabditis elegans",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.1038/387489a0",
+            "ISSN": "0028-0836",
+            "PMID": "9168109",
+            "author": [
+                {
+                    "family": "Aguinaldo",
+                    "given": "A M"
+                },
+                {
+                    "family": "Turbeville",
+                    "given": "J M"
+                },
+                {
+                    "family": "Linford",
+                    "given": "L S"
+                },
+                {
+                    "family": "Rivera",
+                    "given": "M C"
+                },
+                {
+                    "family": "Garey",
+                    "given": "J R"
+                },
+                {
+                    "family": "Raff",
+                    "given": "R A"
+                },
+                {
+                    "family": "Lake",
+                    "given": "J A"
+                }
+            ],
+            "container-title": "Nature",
+            "id": "Aguinaldo1997-ig",
+            "issue": "6632",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997,
+                        5
+                    ]
+                ]
+            },
+            "page": "489-493",
+            "title": "Evidence for a clade of nematodes, arthropods and other moulting animals",
+            "type": "article-journal",
+            "volume": "387"
         },
         {
             "DOI": "10.1534/genetics.119.302286",

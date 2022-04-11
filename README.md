@@ -1,2 +1,2 @@
 # thesis
- Doctorate thesis
+ Doctorate dissertation

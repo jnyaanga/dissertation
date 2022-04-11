@@ -1,10 +1,24 @@
-h1:linkage-mapping-reveals-loci-that-underlie-differences-in-c.-elegans-body-growth Linkage mapping reveals loci that underlie differences in  body growth
+h1:multiple-genetic-loci-underlie-differences-in-c.-elegans-growth Multiple genetic loci underlie differences in  growth
 h2:preface Preface
 h2:abstract Abstract
 h2:introduction Introduction
 h2:materials-and-methods Materials and methods
+h3:strains Strains
+h3:high-throughput-growth-assay High-throughput growth assay
+h3:high-throughput-fitness-assay-for-linkage-mapping High-throughput fitness assay for linkage mapping
+h3:linkage-mapping Linkage mapping
+h3:generation-of-chromosome-substitution-strains-csss-and-near-isogenic-lines-nils Generation of chromosome substitution strains (CSSs) and near-isogenic lines (NILs)
+h3:statistical-analysis-of-css-and-nil-results Statistical analysis of CSS and NIL results
 h2:results Results
+h3:growth-dynamics-of-the-n2-and-cb4856-strains Growth dynamics of the N2 and CB4856 strains
+h3:identification-of-qtl-underlying-variation-in-growth Identification of QTL underlying variation in growth
+h3:validation-of-loci-associated-with-differences-in-animal-size Validation of loci associated with differences in animal size
+h3:identification-of-candidate-genes-in-the-chromosome-x-qtl Identification of candidate genes in the chromosome X QTL
 h2:discussion Discussion
-h2:future-directions Future directions
+h3:a-complex-genetic-architecture-underlies-differences-in-body-size A complex genetic architecture underlies differences in body size
+h3:candidate-genes-for-variation-in-body-size Candidate genes for variation in body size
+h3:comparison-with-previous-qtl-studies-of-c.-elegans-growth Comparison with previous QTL studies of  growth
 h2:contributions Contributions
+h2:supplement Supplement
+h4:s3-1-text.-reagents-used-to-generate-csss-and-nils. S3-1 Text. Reagents used to generate CSSs and NILs.
 

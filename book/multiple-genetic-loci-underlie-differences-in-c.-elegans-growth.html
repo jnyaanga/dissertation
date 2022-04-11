@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Multiple genetic loci underlie differences in C. elegans growth | Mechanisms of Larval Growth Control in Caenorhabditis elegans</title>
+  <meta name="description" content="Nyaanga PhD Dissertation" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Multiple genetic loci underlie differences in C. elegans growth | Mechanisms of Larval Growth Control in Caenorhabditis elegans" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/img/NU_seal.png" />
+  <meta property="og:description" content="Nyaanga PhD Dissertation" />
+  <meta name="github-repo" content="jnyaanga" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Multiple genetic loci underlie differences in C. elegans growth | Mechanisms of Larval Growth Control in Caenorhabditis elegans" />
+  
+  <meta name="twitter:description" content="Nyaanga PhD Dissertation" />
+  <meta name="twitter:image" content="/img/NU_seal.png" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="a-role-for-cuticle-stretch-in-developmental-growth-control.html"/>
+<link rel="next" href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="">Nyaanga Dissertation</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="dedication.html"><a href="dedication.html"><i class="fa fa-check"></i>Dedication</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#Section1.1"><i class="fa fa-check"></i><b>1.1</b> Phenotypic variation</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="introduction.html"><a href="introduction.html#from-genotype-to-phenotype"><i class="fa fa-check"></i><b>1.1.1</b> From genotype to phenotype</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#Section1.2"><i class="fa fa-check"></i><b>1.2</b> Quantitative trait loci mapping</a></li>
+<li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#Section1.3"><i class="fa fa-check"></i><b>1.3</b> <em>Caenorhabditis elegans</em></a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="introduction.html"><a href="introduction.html#as-a-model-organism"><i class="fa fa-check"></i><b>1.3.1</b> As a model organism</a></li>
+<li class="chapter" data-level="1.3.2" data-path="introduction.html"><a href="introduction.html#post-embryonic-development"><i class="fa fa-check"></i><b>1.3.2</b> Post-embryonic development</a></li>
+<li class="chapter" data-level="1.3.3" data-path="introduction.html"><a href="introduction.html#growth-regulation"><i class="fa fa-check"></i><b>1.3.3</b> Growth regulation</a></li>
+<li class="chapter" data-level="1.3.4" data-path="introduction.html"><a href="introduction.html#natural-genetic-variation"><i class="fa fa-check"></i><b>1.3.4</b> Natural genetic variation</a></li>
+<li class="chapter" data-level="1.3.5" data-path="introduction.html"><a href="introduction.html#linkage-mapping"><i class="fa fa-check"></i><b>1.3.5</b> Linkage mapping</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><i class="fa fa-check"></i><b>2</b> A role for cuticle stretch in developmental growth control</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#preface"><i class="fa fa-check"></i><b>2.1</b> Preface</a></li>
+<li class="chapter" data-level="2.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#abstract-1"><i class="fa fa-check"></i><b>2.2</b> Abstract</a></li>
+<li class="chapter" data-level="2.3" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#introduction-1"><i class="fa fa-check"></i><b>2.3</b> Introduction</a></li>
+<li class="chapter" data-level="2.4" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#materials-and-methods"><i class="fa fa-check"></i><b>2.4</b> Materials and methods</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#worm-culture"><i class="fa fa-check"></i><b>2.4.1</b> Worm culture</a></li>
+<li class="chapter" data-level="2.4.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#bacterial-food"><i class="fa fa-check"></i><b>2.4.2</b> Bacterial food</a></li>
+<li class="chapter" data-level="2.4.3" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#growth-of-the-animals"><i class="fa fa-check"></i><b>2.4.3</b> Growth of the animals</a></li>
+<li class="chapter" data-level="2.4.4" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#high-throughput-measurements-of-body-size-and-fluorescence"><i class="fa fa-check"></i><b>2.4.4</b> High-throughput measurements of body size and fluorescence</a></li>
+<li class="chapter" data-level="2.4.5" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#image-processing"><i class="fa fa-check"></i><b>2.4.5</b> Image processing</a></li>
+<li class="chapter" data-level="2.4.6" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#data-processing"><i class="fa fa-check"></i><b>2.4.6</b> Data processing</a></li>
+<li class="chapter" data-level="2.4.7" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#molt-analysis"><i class="fa fa-check"></i><b>2.4.7</b> Molt analysis</a></li>
+<li class="chapter" data-level="2.4.8" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#comparison-of-model-fits"><i class="fa fa-check"></i><b>2.4.8</b> Comparison of model fits</a></li>
+<li class="chapter" data-level="2.4.9" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#stretcher-model-analysis"><i class="fa fa-check"></i><b>2.4.9</b> Stretcher model analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#results"><i class="fa fa-check"></i><b>2.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#quantitative-measurements-of-c.-elegans-growth"><i class="fa fa-check"></i><b>2.5.1</b> Quantitative measurements of <em>C. elegans</em> growth</a></li>
+<li class="chapter" data-level="2.5.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#fluorescence-provides-a-quantitative-measurement-of-animal-feeding-behavior-and-developmental-progression"><i class="fa fa-check"></i><b>2.5.2</b> Fluorescence <strong>provides a quantitative measurement of animal feeding behavior and developmental progression</strong></a></li>
+<li class="chapter" data-level="2.5.3" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#changes-in-c.-elegans-body-shape-occur-at-larval-stage-transitions"><i class="fa fa-check"></i><b>2.5.3</b> Changes in <em>C. elegans</em> body shape occur at larval-stage transitions</a></li>
+<li class="chapter" data-level="2.5.4" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#modeling-c.-elegans-cuticle-stretch-dynamics"><i class="fa fa-check"></i><b>2.5.4</b> Modeling <em>C. elegans</em> cuticle stretch dynamics</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#discussion"><i class="fa fa-check"></i><b>2.6</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#a-potential-role-for-cuticle-stretch-in-the-timing-of-larval-stage-transitions"><i class="fa fa-check"></i><b>2.6.1</b> A potential role for cuticle stretch in the timing of larval-stage transitions</a></li>
+<li class="chapter" data-level="2.6.2" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#development-comprises-complex-interactions-of-growth-regulation-across-diverse-scales"><i class="fa fa-check"></i><b>2.6.2</b> Development comprises complex interactions of growth regulation across diverse scales</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#contributions"><i class="fa fa-check"></i><b>2.7</b> Contributions</a></li>
+<li class="chapter" data-level="2.8" data-path="a-role-for-cuticle-stretch-in-developmental-growth-control.html"><a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html#supplement"><i class="fa fa-check"></i><b>2.8</b> Supplement</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><i class="fa fa-check"></i><b>3</b> Multiple genetic loci underlie differences in <em>C. elegans</em> growth</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#preface-1"><i class="fa fa-check"></i><b>3.1</b> Preface</a></li>
+<li class="chapter" data-level="3.2" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#abstract-2"><i class="fa fa-check"></i><b>3.2</b> Abstract</a></li>
+<li class="chapter" data-level="3.3" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#introduction-2"><i class="fa fa-check"></i><b>3.3</b> Introduction</a></li>
+<li class="chapter" data-level="3.4" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#materials-and-methods-1"><i class="fa fa-check"></i><b>3.4</b> Materials and methods</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#strains"><i class="fa fa-check"></i><b>3.4.1</b> Strains</a></li>
+<li class="chapter" data-level="3.4.2" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#high-throughput-growth-assay"><i class="fa fa-check"></i><b>3.4.2</b> High-throughput growth assay</a></li>
+<li class="chapter" data-level="3.4.3" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#high-throughput-fitness-assay-for-linkage-mapping"><i class="fa fa-check"></i><b>3.4.3</b> High-throughput fitness assay for linkage mapping</a></li>
+<li class="chapter" data-level="3.4.4" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#linkage-mapping-1"><i class="fa fa-check"></i><b>3.4.4</b> Linkage mapping</a></li>
+<li class="chapter" data-level="3.4.5" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#generation-of-chromosome-substitution-strains-csss-and-near-isogenic-lines-nils"><i class="fa fa-check"></i><b>3.4.5</b> Generation of chromosome substitution strains (CSSs) and near-isogenic lines (NILs)</a></li>
+<li class="chapter" data-level="3.4.6" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#statistical-analysis-of-css-and-nil-results"><i class="fa fa-check"></i><b>3.4.6</b> Statistical analysis of CSS and NIL results</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#results-1"><i class="fa fa-check"></i><b>3.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="3.5.1" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#growth-dynamics-of-the-n2-and-cb4856-strains"><i class="fa fa-check"></i><b>3.5.1</b> Growth dynamics of the N2 and CB4856 strains</a></li>
+<li class="chapter" data-level="3.5.2" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#identification-of-qtl-underlying-variation-in-growth"><i class="fa fa-check"></i><b>3.5.2</b> Identification of QTL underlying variation in growth</a></li>
+<li class="chapter" data-level="3.5.3" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#validation-of-loci-associated-with-differences-in-animal-size"><i class="fa fa-check"></i><b>3.5.3</b> Validation of loci associated with differences in animal size</a></li>
+<li class="chapter" data-level="3.5.4" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#identification-of-candidate-genes-in-the-chromosome-x-qtl"><i class="fa fa-check"></i><b>3.5.4</b> Identification of candidate genes in the chromosome X QTL</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#discussion-1"><i class="fa fa-check"></i><b>3.6</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="3.6.1" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#a-complex-genetic-architecture-underlies-differences-in-body-size"><i class="fa fa-check"></i><b>3.6.1</b> A complex genetic architecture underlies differences in body size</a></li>
+<li class="chapter" data-level="3.6.2" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#candidate-genes-for-variation-in-body-size"><i class="fa fa-check"></i><b>3.6.2</b> Candidate genes for variation in body size</a></li>
+<li class="chapter" data-level="3.6.3" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#comparison-with-previous-qtl-studies-of-c.-elegans-growth"><i class="fa fa-check"></i><b>3.6.3</b> Comparison with previous QTL studies of <em>C. elegans</em> growth</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#contributions-1"><i class="fa fa-check"></i><b>3.7</b> Contributions</a></li>
+<li class="chapter" data-level="3.8" data-path="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html"><a href="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth.html#supplement-1"><i class="fa fa-check"></i><b>3.8</b> Supplement</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><i class="fa fa-check"></i><b>4</b> easyXpress: An R package to analyze and visualize <em>C. elegans</em> microscopy data generated using CellProfiler</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#preface-2"><i class="fa fa-check"></i><b>4.1</b> Preface</a></li>
+<li class="chapter" data-level="4.2" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#abstract-3"><i class="fa fa-check"></i><b>4.2</b> Abstract</a></li>
+<li class="chapter" data-level="4.3" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#introduction-3"><i class="fa fa-check"></i><b>4.3</b> Introduction</a></li>
+<li class="chapter" data-level="4.4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#materials-and-methods-2"><i class="fa fa-check"></i><b>4.4</b> Materials and methods</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#preparation-of-animals-for-imaging"><i class="fa fa-check"></i><b>4.4.1</b> Preparation of animals for imaging</a></li>
+<li class="chapter" data-level="4.4.2" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#imaging"><i class="fa fa-check"></i><b>4.4.2</b> Imaging</a></li>
+<li class="chapter" data-level="4.4.3" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#paraquat-dose-response"><i class="fa fa-check"></i><b>4.4.3</b> Paraquat dose response</a></li>
+<li class="chapter" data-level="4.4.4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#naming-conventions"><i class="fa fa-check"></i><b>4.4.4</b> Naming conventions</a></li>
+<li class="chapter" data-level="4.4.5" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#data-availability"><i class="fa fa-check"></i><b>4.4.5</b> Data availability</a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#results-2"><i class="fa fa-check"></i><b>4.5</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#design-and-implementation"><i class="fa fa-check"></i><b>4.5.1</b> Design and implementation</a></li>
+<li class="chapter" data-level="4.5.2" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#data-import-and-model-assignment"><i class="fa fa-check"></i><b>4.5.2</b> Data import and model assignment</a></li>
+<li class="chapter" data-level="4.5.3" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#data-pruning-and-summarization"><i class="fa fa-check"></i><b>4.5.3</b> Data pruning and summarization</a></li>
+<li class="chapter" data-level="4.5.4" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#visualization"><i class="fa fa-check"></i><b>4.5.4</b> Visualization</a></li>
+<li class="chapter" data-level="4.5.5" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#application-to-c.-elegans-growth-data"><i class="fa fa-check"></i><b>4.5.5</b> Application to <em>C. elegans</em> growth data</a></li>
+</ul></li>
+<li class="chapter" data-level="4.6" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#conclusions"><i class="fa fa-check"></i><b>4.6</b> Conclusions</a></li>
+<li class="chapter" data-level="4.7" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#contributions-2"><i class="fa fa-check"></i><b>4.7</b> Contributions</a></li>
+<li class="chapter" data-level="4.8" data-path="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html"><a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html#supplement-2"><i class="fa fa-check"></i><b>4.8</b> Supplement</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="discussion-2.html"><a href="discussion-2.html"><i class="fa fa-check"></i><b>5</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="discussion-2.html"><a href="discussion-2.html#summary"><i class="fa fa-check"></i><b>5.1</b> Summary</a></li>
+<li class="chapter" data-level="5.2" data-path="discussion-2.html"><a href="discussion-2.html#the-future-of-developmental-growth-studies"><i class="fa fa-check"></i><b>5.2</b> The future of developmental growth studies</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="discussion-2.html"><a href="discussion-2.html#the-c.-elegans-cuticle-and-its-role-in-developmental-timing"><i class="fa fa-check"></i><b>5.2.1</b> The <em>C. elegans</em> cuticle and its role in developmental timing</a></li>
+<li class="chapter" data-level="5.2.2" data-path="discussion-2.html"><a href="discussion-2.html#identifying-genetic-factors-that-contribute-to-variation-in-growth-and-body-size"><i class="fa fa-check"></i><b>5.2.2</b> Identifying genetic factors that contribute to variation in growth and body size</a></li>
+<li class="chapter" data-level="5.2.3" data-path="discussion-2.html"><a href="discussion-2.html#phenotypic-plasticity-and-genotype-by-environment-interaction"><i class="fa fa-check"></i><b>5.2.3</b> Phenotypic plasticity and genotype-by-environment interaction</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
+<li class="chapter" data-level="7" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>7</b> Appendix</a></li>
+<li><a href="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html#a.-growth-dynamics-of-c.-elegans-cuticle-mutants">A. Growth dynamics of <em>C. elegans</em> cuticle mutants</a>
+<ul>
+<li class="chapter" data-level="" data-path="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html"><a href="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html"><a href="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html#description"><i class="fa fa-check"></i>Description</a></li>
+<li class="chapter" data-level="" data-path="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html"><a href="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html#methods"><i class="fa fa-check"></i>Methods</a></li>
+<li class="chapter" data-level="" data-path="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html"><a href="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html#contributions-3"><i class="fa fa-check"></i>Contributions</a></li>
+<li class="chapter" data-level="" data-path="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html"><a href="a.-growth-dynamics-of-c.-elegans-cuticle-mutants.html#references-1"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li><a href="b.-food-allocation-during-c.-elegans-growth.html#b.-food-allocation-during-c.-elegans-growth">B. Food allocation during <em>C. elegans</em> growth</a>
+<ul>
+<li class="chapter" data-level="" data-path="b.-food-allocation-during-c.-elegans-growth.html"><a href="b.-food-allocation-during-c.-elegans-growth.html"><i class="fa fa-check"></i>Description</a></li>
+<li class="chapter" data-level="" data-path="b.-food-allocation-during-c.-elegans-growth.html"><a href="b.-food-allocation-during-c.-elegans-growth.html#methods-1"><i class="fa fa-check"></i>Methods</a></li>
+<li class="chapter" data-level="" data-path="b.-food-allocation-during-c.-elegans-growth.html"><a href="b.-food-allocation-during-c.-elegans-growth.html#contributions-4"><i class="fa fa-check"></i>Contributions</a></li>
+<li class="chapter" data-level="" data-path="b.-food-allocation-during-c.-elegans-growth.html"><a href="b.-food-allocation-during-c.-elegans-growth.html#references-2"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mechanisms of Larval Growth Control in <em>Caenorhabditis elegans</em></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="multiple-genetic-loci-underlie-differences-in-c.-elegans-growth" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Multiple genetic loci underlie differences in <em>C. elegans</em> growth</h1>
+<div id="preface-1" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Preface</h2>
+<p>The Andersen lab is particularly adept at connecting phenotypic variation in a population to unique genetic variants. As a follow-up to the work described in the previous chapter, I was interested in leveraging this expertise to explore how natural genetic variation influenced growth in <em>C. elegans</em>. This meant running another long time course experiment (on my golden birthday no less!), digging into a treasure trove of “throw-away” data collected in 2014, and working with a few new strains other than our good pal N2. The following chapter is based off of my work on this project. It is currently in preparation for submission as a first-author manuscript to G3.</p>
+</div>
+<div id="abstract-2" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Abstract</h2>
+<p>Growth rate and body size are complex traits that contribute to the fitness of organisms. The identification of loci that underlie differences in these traits provides insights into the genetic contributions to development. Leveraging <em>Caenorhabditis elegans</em> as a tractable metazoan model for quantitative genetics, we can identify genomic regions that underlie differences in growth. We measured post-embryonic growth of the laboratory-adapted wild-type strain (N2) and a wild strain from Hawaii (CB4856), and found differences in body size. Using linkage mapping, we identified three distinct quantitative trait loci (QTL) on chromosomes IV, V, and X that are associated with variation in body size. We further examined these size-associated QTL using chromosome substitution strains and near-isogenic lines, and validated the chromosome X QTL. Additionally, we generated a list of candidate genes for the chromosome X QTL. These genes could potentially contribute to differences in animal growth and should be evaluated in subsequent studies. Our work reveals the genetic architecture underlying animal growth variation and highlights the genetic complexity of body size in <em>C. elegans</em> natural populations.</p>
+</div>
+<div id="introduction-2" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Introduction</h2>
+<p>Precise regulation of final body size is essential to the development and fitness of organisms. Although a larger body size can increase competitive advantages, it also requires added time and nutrients to develop <span class="citation">[<a href="references.html#ref-Hone2005-ex" role="doc-biblioref">87</a>]</span>. For this reason, mechanisms that control developmental growth rate and ultimate body size are likely under strong natural selection.</p>
+<p>The robustness and precision with which animal development is choreographed is still not well understood. Developing systems coordinate the organization and interaction among cells, tissues, and organs at high reproducibility even in the presence of genetic and environmental perturbations. The early developmental biologist C.H. Waddington coined the term “canalization” to describe this biological robustness <span class="citation">[<a href="references.html#ref-Waddington1942-ih" role="doc-biblioref">145</a>]</span>. Developmental canalization has been widely studied in human growth <span class="citation">[<a href="references.html#ref-Tanner1963-wa" role="doc-biblioref">146</a>–<a href="references.html#ref-Desmond2017-ek" role="doc-biblioref">148</a>]</span>, and shown that to achieve an adult height within normal range, shorter individuals tend to undergo accelerated growth whereas taller individuals experience a decreased rate of growth <span class="citation">[<a href="references.html#ref-Hector2012-xi" role="doc-biblioref">149</a>]</span>. In this way, the growth curves of individuals, though variable, converge on a narrow range.</p>
+<p>To study the phenomenon of organismal size uniformity, considerable precision and throughput is needed, which can be a challenge when working with multicellular organisms. The nematode <em>Caenorhabditis elegans</em> presents a powerful model organism to study developmental growth. <em>C. elegans</em> has a quick generation time, produces large numbers of genetically identical offspring, and is easily cultured in controlled laboratory conditions (Wood 1988). Furthermore, <em>C. elegans</em> post-embryonic development is well characterized and marked by four larval-stage transitions (molts) that separate the <em>C. elegans</em> life cycle into five distinct stages: four larval stages (L1-L4) and adult <span class="citation">[<a href="references.html#ref-Singh1978-xi" role="doc-biblioref">41</a>]</span>. The timing of these molts determines the completion of stage-specific development <span class="citation">[<a href="references.html#ref-Monsalve2011-vo" role="doc-biblioref">48</a>,<a href="references.html#ref-Zaidel-Bar2010-up" role="doc-biblioref">49</a>]</span>, underscoring the importance of developmental growth regulation in <em>C. elegans.</em></p>
+<p>We can leverage <em>C. elegans</em> natural genetic diversity to connect phenotypic differences to genetic variants [<span class="citation">[<a href="references.html#ref-Evans2021-zr" role="doc-biblioref">21</a>]</span>; <span class="citation">[<a href="references.html#ref-Andersen2022-su" role="doc-biblioref">150</a>]</span>]. Two particular strains of interest are the laboratory-adapted wild-type strain, N2, and a wild strain from Hawaii, CB4856. The genetic diversity between these two strains was shown to underlie multiple phenotypic differences, including aggregation behavior, life history traits, and gene expression <span class="citation">[<a href="references.html#ref-Evans2021-zr" role="doc-biblioref">21</a>]</span>. Recombinant inbred lines constructed from crosses between the N2 and CB4856 strains each have unique variants derived from each parental background. Performed at a large scale, these populations of recombinant individuals are a powerful tool to identify genomic regions that are correlated with phenotypic variation. Mapping the natural variation underlying phenotypic differences allows for the dissection of genetic networks involved in important biological processes. Many others have taken this approach to study the genetic underpinnings of complex traits <span class="citation">[<a href="references.html#ref-Evans2021-zr" role="doc-biblioref">21</a>,<a href="references.html#ref-Andersen2022-su" role="doc-biblioref">150</a>]</span>.</p>
+<p>To characterize the genetic basis for variation in body size and growth in <em>C. elegans</em>, we first performed a longitudinal study of post-embryonic growth in N2 and CB4856 animals. Although we observed similar patterns in overall growth dynamics, we also noticed small differences in body size at individual time points across development. To study these differences in size, we used linkage mapping to identify three distinct QTL that influence animal size variation. We further assessed each QTL independently using chromosome substitution strains and near-isogenic lines. Doing so, we validated the chromosome X QTL and identified promising candidate genes that could contribute to the differences in size between the N2 and CB4856 strains. Our work provides a framework for future studies to investigate the genetic mechanisms controlling developmental growth and body size in natural populations of <em>C. elegans</em>.</p>
+</div>
+<div id="materials-and-methods-1" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> Materials and methods</h2>
+<div id="strains" class="section level3" number="3.4.1">
+<h3><span class="header-section-number">3.4.1</span> Strains</h3>
+<p>Animals were grown at <span class="math inline">\(20^{\circ}C\)</span> on 6 cm plates of modified nematode growth media (NGMA), containing 1% agar and 0.7% agarose seeded with E. coli OP50 bacteria. Recombinant inbred advanced intercross lines (RIAILs) used for linkage mapping were constructed previously <span class="citation">[<a href="references.html#ref-Andersen2015-uj" role="doc-biblioref">114</a>]</span>. The construction of chromosome substitution strains (CSSs) and near isogenic lines (NILs) used for validation is detailed below. Strains are available upon request.</p>
+</div>
+<div id="high-throughput-growth-assay" class="section level3" number="3.4.2">
+<h3><span class="header-section-number">3.4.2</span> High-throughput growth assay</h3>
+<p>Measurements of body size and fluorescence were measured as previously described <span class="citation">[<a href="references.html#ref-Nyaanga2022-zd" role="doc-biblioref">86</a>]</span>. Briefly, the N2 and CB4856 strains were propagated for three generations, bleach-synchronized, and titered at a concentration of 1 embryo per <span class="math inline">\(\mu L\)</span> into six replicate 500 mL flasks for a final volume of 25 mL. The following day, arrested L1s were fed HB101 food at a final concentration of OD20 in a final flask volume of 100 mL K medium and HB101 food. Animals were then grown at <span class="math inline">\(20^{\circ}C\)</span> with constant shaking. Flasks were sampled each hour beginning one hour after feeding and continuing for 51 consecutive hours. At each hour, animals were sampled from each flask, treated with sodium azide, imaged with an ImageXpress Nano (Molecular Devices, SanJose, CA) and scored using a large-particle flow cytometer (COPAS BIOSORT, Union Biometrica, Holliston MA). The COPAS BIOSORT platform was used to collect measurements of animal length (TOF) and optical extinction (EXT). Normalized optical extinction (norm.EXT) was previously established as a proxy for animal width. The raw data collected were imported and processed using the easysorter R package <span class="citation">[<a href="references.html#ref-Shimko2014-eb" role="doc-biblioref">79</a>]</span>. Processing removed non-animal objects such as bacterial clumps, shed cuticles, and next generation larval animals from the time-course data using the <em>mclust</em> R package <span class="citation">[<a href="references.html#ref-Scrucca2016-by" role="doc-biblioref">115</a>]</span>.</p>
+</div>
+<div id="high-throughput-fitness-assay-for-linkage-mapping" class="section level3" number="3.4.3">
+<h3><span class="header-section-number">3.4.3</span> High-throughput fitness assay for linkage mapping</h3>
+<p>For RIAIL phenotyping, we used a high-throughput fitness assay previously described <span class="citation">[<a href="references.html#ref-Andersen2015-uj" role="doc-biblioref">114</a>]</span>. In brief, populations of each strain were propagated on NGMA plates for four generations after which gravid adults were bleach-synchronized and embryos from each strain were aliquoted at a concentration of 25-50 embryos/<span class="math inline">\(\mu L\)</span> into 96-well microtiter plates for a final volume of 50 <span class="math inline">\(\mu L\)</span> K medium. The next day, arrested L1s were fed HB101 bacterial lysate (Pennsylvania State University Shared Fermentation Facility, State College, PA; <span class="citation">[<a href="references.html#ref-Garcia-Gonzalez2017-wl" role="doc-biblioref">151</a>]</span> ) at a final concentration of 5 mg/mL in K medium and grown to the L4 larval stage for 48 hours at <span class="math inline">\(20^{\circ}C\)</span> with constant shaking. Animals were then sorted using a COPAS BIOSORT platform during which time animal length and width were collected. Measurements collected by the COPAS BIOSORT were processed and analyzed using the easysorter R package <span class="citation">[<a href="references.html#ref-Shimko2014-eb" role="doc-biblioref">79</a>]</span>. Well populations of recombinant strains that contained more than 100 or fewer than three individuals were removed from further processing, resulting in an average of 25 independent replicate wells per strain. Differences among strains tested on different days were controlled using a linear model (animal_size ~ experiment_date). In this way, we address only the differences among strains caused by growth and the day-to-day experimental variance is controlled. These residual values are used for plotting.</p>
+</div>
+<div id="linkage-mapping-1" class="section level3" number="3.4.4">
+<h3><span class="header-section-number">3.4.4</span> Linkage mapping</h3>
+<p>310 RIAILs (set 2 RIAILs) were phenotyped using the high-throughput assay described above. Linkage mapping was performed for body size traits using the R package linkagemapping (www.github.com/AndersenLab/linkagemapping) as previously described <span class="citation">[<a href="references.html#ref-Brady2019-qg" role="doc-biblioref">81</a>]</span>. The genotypic data and residual phenotypic data were merged using the merge_pheno function with the argument set = 2. Quantitative trait loci (QTL) were detected using the fsearch function. This function calculates the logarithm of the odds (LOD) scores for each genetic marker and each trait as <span class="math inline">\(-n(ln(1-R^2)/2ln(10))\)</span> where R is the Pearson correlation coefficient between the RIAIL genotypes at the marker and trait values (Bloom et al. 2013). A significance threshold based on a 5% genome-wide error rate was calculated by permuting the phenotypic values of each RIAIL 1000 times. QTL were identified as the marker with the highest LOD score above the significance threshold. This marker was then integrated into the model as a cofactor and mapping was repeated iteratively until no further significant QTL were identified. Finally, the annotate_lods function was used to calculate the effect size of each QTL. 95% confidence intervals were defined by a 1.5-LOD drop from the peak marker.</p>
+</div>
+<div id="generation-of-chromosome-substitution-strains-csss-and-near-isogenic-lines-nils" class="section level3" number="3.4.5">
+<h3><span class="header-section-number">3.4.5</span> Generation of chromosome substitution strains (CSSs) and near-isogenic lines (NILs)</h3>
+<p>CSSs were generated from a cross of the N2 and CB4856 strains. These strains were crossed and heterozygous hermaphrodite progeny were mated to each parental genotype for four generations followed by three generations of selfing to ensure homozygosity of the genome. For each cross, PCR amplicons for insertion-deletions (indels) on the left and right sides of chromosomes IV and V were used to confirm progeny genotypes and select non-recombinants within the introgressed region (<strong>S1 Text</strong>). CSSs were whole-genome sequenced to confirm their genotypes. NILs were generated as previously described <span class="citation">[<a href="references.html#ref-Brady2019-qg" role="doc-biblioref">81</a>,<a href="references.html#ref-Zdraljevic2019-fr" role="doc-biblioref">84</a>,<a href="references.html#ref-Zdraljevic2017-jd" role="doc-biblioref">85</a>,<a href="references.html#ref-Evans2018-sj" role="doc-biblioref">152</a>]</span> by either backcrossing a selected RIAIL or NIL for six generations or de novo by crossing the parental strains N2 and CB4856 to create a heterozygous individual that was then backcrossed for six generations. PCR amplicons for indel variants were used to track the genomic interval (<strong>S1 Text</strong>). NILs were whole-genome sequenced to verify introgressions.</p>
+</div>
+<div id="statistical-analysis-of-css-and-nil-results" class="section level3" number="3.4.6">
+<h3><span class="header-section-number">3.4.6</span> Statistical analysis of CSS and NIL results</h3>
+<p>Growth dynamics for CSSs were tested using a modified version of the high-throughput fitness assay for linkage mapping. Animals were propagated on NGMA plates for two generations before gravid adults were bleach-synchronized and embryos from each strain were aliquoted at a concentration of 1 embryo/<span class="math inline">\(\mu L\)</span> into 12-well, flat bottom culture plates. After three days, gravid adults were bleach-synchronized and embryos were titered into 96-well microtiter plates at a concentration of 50 embryos/<span class="math inline">\(\mu L\)</span> for a final volume of 50 <span class="math inline">\(\mu L\)</span> K medium. The next day, arrested L1s were fed HB101 live bacterial food at a final concentration of OD20. Animals were grown for 48 hours at 20°C with constant shaking and then scored using the COPAS BIOSORT platform as before. The raw data collected were again imported and processed using the easysorter R package (Shimko and Andersen 2014). Processing removed non-animal objects such as bacterial clumps, shed cuticles, and next generation larval animals from the time-course data using the <em>mclust</em> R package <span class="citation">[<a href="references.html#ref-Scrucca2016-by" role="doc-biblioref">115</a>]</span>. Complete pairwise strain comparisons were performed using the TukeyHSD function <span class="citation">[<a href="references.html#ref-Team2014-fu" role="doc-biblioref">153</a>]</span> on an ANOVA model with the formula phenotype ~ strain. A <em>p</em>-value of <em>p</em> &lt; 0.05 was used as a threshold for statistical significance. Recapitulation was defined by the significance and direction of effect the CSS or NIL had compared to the parental strains.</p>
+</div>
+</div>
+<div id="results-1" class="section level2" number="3.5">
+<h2><span class="header-section-number">3.5</span> Results</h2>
+<div id="growth-dynamics-of-the-n2-and-cb4856-strains" class="section level3" number="3.5.1">
+<h3><span class="header-section-number">3.5.1</span> Growth dynamics of the N2 and CB4856 strains</h3>
+<p>To precisely evaluate <em>C. elegans</em> growth dynamics, we previously developed a high-throughput growth assay that integrates image-based and flow-based devices to quantify the growth of thousands of animals over developmental time <span class="citation">[<a href="references.html#ref-Nyaanga2022-zd" role="doc-biblioref">86</a>]</span>. We used this assay to collect body size measurements of N2 and CB4856 animals over the course of larval development from the L1 stage through the L4 stage. Briefly, populations of 100,000 animals were cultured in flasks in triplicate for each strain. Every hour after feeding, we sampled the population from each flask (approximately 300 animals per flask), collected images, and measured length (TOF) and width (norm.EXT) of sampled animals using the COPAS BIOSORT platform (Figure S3-1). From these raw body size measurements, we removed non-animal objects using model-based clustering and generated summary statistics to study population changes (Figures S3-2, see Methods). Here, we report mean length and mean width of animals over 51 consecutive developmental time points (<strong>Figure 3-1</strong>). Overall, we observed little divergence in growth behavior between the two strains. As previously reported, we detected continuous growth punctuated by periods of discontinuous growth rate, resulting in visible shifts in length and width over time. Although growth behavior is consistent in both N2 and CB4856 animals, we capture significant differences in animal length and width at individual time points, particularly early in development (Figure S3-4). As animals age we identify fewer time points with significant differences likely due to increased population variance. We find that across all instances where there is a significant difference in animal length, N2 is consistently longer than CB4856. However, this is not the case in animal width as we observe time points where CB4856 is wider than N2 and others where it is thinner.</p>
+<p><img src="img/ch3/fig3-1.png" width="90%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure 3-1. Quantitative measurements of growth for N2 and CB4856 animals.</strong> Tukey boxplots of mean length <strong>(A)</strong> and mean width <strong>(B)</strong> for the N2 (orange) and CB4856 (blue) strains over developmental time. The horizontal line in the middle of the box is the median, and the box denotes the 25th to 75th quantiles of the data. The vertical line represents the 1.5 interquartile range. Inset plots magnify mean animal size measurements from hour 48. Each point corresponds to the means length or mean width of a population of animals in each well.</p>
+</div>
+<div id="identification-of-qtl-underlying-variation-in-growth" class="section level3" number="3.5.2">
+<h3><span class="header-section-number">3.5.2</span> Identification of QTL underlying variation in growth</h3>
+<p>As a complex trait, developmental growth is likely influenced by many genes as well as the interactions among them. To investigate the genetic basis of differences in growth, we assessed the development of a panel of 310 RIAILs derived from a cross between the N2 and CB4856 strains (set 2 RIAILs, see Methods). In lieu of collecting measurements throughout development, we used body size as a convenient proxy for developmental progression, where fast growth corresponds to large size and slow growth corresponds to small size. After 48 hours of growth, we collected measurements of length and width using a high-throughput fitness assay, and removed wells containing more than 100 or fewer than three animals from downstream processing (see Methods). Doing so, we observed a distribution of both length (<strong>Figure 3-2A</strong>) and width (<strong>Figure 3-2D</strong>) among the RIAILs, indicating that growth rate varies in the strain population. Next, we mapped body length and width separately and obtained three significant QTL (<strong>Figure 3-2B</strong>,<strong>E</strong>). The length-associated QTL, spanning the center of chromosome IV, and the width-associated QTL on the center of chromosome V independently explain approximately 5% of the phenotypic variation among the RIAILs. The third QTL on the right arm of chromosome X explains slightly more variation at 8.6% (<strong>Table 3-1</strong>). Notably, not only did we find distinct QTL for length and width, we also observed QTL with opposite effects on body shape. Strains with the N2 allele on chromosome IV were longer than strains with the CB4856 allele at this location (<strong>Figure 3-2C</strong>). By contrast, strains with the CB4856 alleles on chromosomes V and X were wider than strains with the N2 allele at these loci (<strong>Figure 3-2F</strong>). The identification of distinct QTL for length vs. width indicates that body shape is influenced by multiple genetic mechanisms. Additionally, we scanned the genome for interactions between pairs of genomic markers that could affect the phenotypic distribution of length or width in the RIAILs and identified no significant interactions (Figures S3-5 and S3-6). These data suggest that the three identified loci contain variants that uniquely influence growth rate along multiple axes, where each locus independently affects the longitudinal or circumferential growth of animals.</p>
+<p><img src="img/ch3/fig3-2.png" width="100%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure 3-2. Linkage mapping identifies three QTL associated with body size.</strong> Histogram of normalized mean body length <strong>(A)</strong> and mean body width <strong>(D)</strong> of the RIAIL population. <strong>(B, E)</strong> Linkage mapping results for mean body length or mean body width are shown with genomic position (x-axis) plotted against the logarithm of the odds (LOD) score (y-axis). X-axis tick marks denote every 5 Mb. Significant QTL are denoted by a red triangle at the peak marker, and blue shading shows the 95% confidence interval around the peak marker. The percentage of the total phenotypic variance in the RIAIL population that is explained by each QTL is shown above the peak marker. <strong>(C, F)</strong> Tukey box plots show the normalized mean length or width (y-axis) of RIAILs split by genotype at the marker with the maximum LOD score (x-axis). Populations of recombinant strains were grown in independent wells. Each point corresponds to the mean value of all well means. Boxes for data from strains with the N2 allele are colored orange, and boxes for data from strains with the CB4856 allele are shown in blue.</p>
+<p><strong>Table 3-1. Body size QTL</strong></p>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="13%" />
+<col width="20%" />
+<col width="10%" />
+<col width="8%" />
+<col width="23%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><strong>Trait</strong></th>
+<th align="center"><strong>Chromosome</strong></th>
+<th align="center"><strong>Interval (bp)</strong></th>
+<th align="center"><strong>Peak</strong></th>
+<th align="center"><strong>LOD</strong></th>
+<th align="center"><strong>Variance explained (%)</strong></th>
+<th align="center"><strong>Effect size</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Length</td>
+<td align="center">IV</td>
+<td align="center">6,211,685 - 12,868,784</td>
+<td align="center">9,392,639</td>
+<td align="center">3.22</td>
+<td align="center">5.28</td>
+<td align="center">-0.229</td>
+</tr>
+<tr class="even">
+<td align="center">Width</td>
+<td align="center">V</td>
+<td align="center">5,371,124 - 12,112,105</td>
+<td align="center">11,806,498</td>
+<td align="center">4.54</td>
+<td align="center">5.59</td>
+<td align="center">0.236</td>
+</tr>
+<tr class="odd">
+<td align="center">Width</td>
+<td align="center">X</td>
+<td align="center">12,565,734 - 13,173,080</td>
+<td align="center">12,750,794</td>
+<td align="center">5.25</td>
+<td align="center">8.63</td>
+<td align="center">0.293</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="validation-of-loci-associated-with-differences-in-animal-size" class="section level3" number="3.5.3">
+<h3><span class="header-section-number">3.5.3</span> Validation of loci associated with differences in animal size</h3>
+<p>To validate whether genetic variation between the N2 and CB4856 strains contributes to differences in animal size, we generated chromosome substitution strains (CSSs) for chromosomes IV and V in which the entire chromosome from the N2 strain was introgressed into the CB4856 genetic background and vice versa. We also constructed reciprocal near-isogenic lines (NILs) for chromosomes IV, V, and X. These NILs contain a small genomic segment derived from one parent strain introgressed into the genetic background of the other parent strain. We then measured the length and width of animals after 48 hours of growth and calculated statistical significance in a pairwise manner for each strain (see Methods). For the chromosomes IV and V QTL, we were unable to recapitulate the results observed in the linkage mapping (Figures S3-7** and S3-8). These two QTL each explain only 5% of the total phenotypic variation among the RIAILs and have the smallest effect sizes among the three detected QTL (<strong>Table 3-1</strong>). The inability to validate these QTL suggests a complex genetic architecture that cannot be explained by isolating these loci using CSSs and NILs, or a lack of power to detect differences driven by these QTL in the CSSs and NILs. By contrast, we successfully validated the chromosome X QTL by observing that genotype significantly contributed to differences in body width of NILs (<strong>Figure 3-3</strong>). The strain with the CB4856 allele on chromosome X crossed into the N2 genetic background was significantly wider than the N2 strain (Tukey’s HSD, <em>p</em>-value = <span class="math inline">\(1.29e^{-10}\)</span>). Similarly, the strain with the N2 chromosome X region introgressed into the CB4856 genetic background was significantly thinner than the CB4856 strain (Tukey’s HSD, <em>p</em>-value = <span class="math inline">\(1.29e^{-10}\)</span>). These results confirmed that genetic variation between the N2 and CB4856 strains on chromosome X contributes to the difference in body width between these strains.</p>
+<p><img src="img/ch3/fig3-3.png" width="100%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure 3-3. NILs validated the chromosome X QTL.</strong> <strong>(A)</strong> Strain genotypes are displayed as colored rectangles (N2: orange, CB4856: blue) for chromosome X (left) and in general for the rest of the chromosomes (right). The solid vertical line represents the peak marker of the QTL. The dashed vertical lines represent the confidence interval. <strong>(B)</strong> Residual mean animal width (x-axis) is plotted as Tukey box plots against strain (y-axis). Each point corresponds to the mean width of a population of animals from each well. The boxes for the parental strains are colored: N2, orange; CB4856, blue. Statistical significance was calculated by Tukey’s HSD (**** = <em>p</em>-value &lt; 0.0001).</p>
+</div>
+<div id="identification-of-candidate-genes-in-the-chromosome-x-qtl" class="section level3" number="3.5.4">
+<h3><span class="header-section-number">3.5.4</span> Identification of candidate genes in the chromosome X QTL</h3>
+<p>To identify candidate genes that could underlie variation in body width, we investigated the genes in the chromosome X interval in the N2 strain. We found 151 genes present in this interval and eliminated 96 genes that had no genetic variation in the CB4856 strain (<strong>Table 3-2</strong>). Of the remaining 55 genes, 18 have genetic variation in the amino-acid sequence of a protein (protein-coding variation), and 34 have genetic variation that is not protein-coding (non-coding variation). However, protein-coding variation is just one way in which genetic variation can cause phenotypic variation. We also considered instances where genetic variation causes a change in gene expression. Using an expression QTL (eQTL) dataset that mapped expression differences in another panel of RIAILs (set 1) derived from N2 and CB4856 <span class="citation">[<a href="references.html#ref-Evans2020-db" role="doc-biblioref">82</a>,<a href="references.html#ref-Rockman2009-qy" role="doc-biblioref">154</a>]</span>, we identified five genes with eQTL that map to our region of interest. Additionally, we found 17 other genes outside this genomic interval with eQTL that map to this interval, resulting in a total of 72 candidate genes, none of which are located within a hyper-divergent region <span class="citation">[<a href="references.html#ref-Lee2021-wx" role="doc-biblioref">155</a>]</span>.</p>
+<p>To further narrow our list of genes, we inspected the functional descriptions and gene ontology (GO) annotations for the remaining 72 candidate genes. When considering the 21 genes with protein-coding variation and/or eQTL, one candidate (<em>ppk-3</em>) stood out. <em>ppk-3</em>, or phosphatidylinositol phosphate kinase 3, is an ortholog of the mammalian PIKfyve. These kinases play important roles in cell communication and membrane trafficking <span class="citation">[<a href="references.html#ref-Gillooly2001-tu" role="doc-biblioref">156</a>]</span>. Notably, mutations in <em>ppk-3</em> are responsible for a range of developmental defects, including embryonic lethality, developmental arrest, and larval growth delay <span class="citation">[<a href="references.html#ref-Nicot2006-rn" role="doc-biblioref">157</a>]</span>. Investigating the sequence read alignments of the N2 and CB4856 strains at the <em>ppk-3</em> locus using the Variant Browser on CeNDR <span class="citation">[<a href="references.html#ref-Cook2017-zq" role="doc-biblioref">69</a>]</span>, we observed a missense variant in the second exon predicted to encode a serine-to-threonine substitution (S43T). Although this variant is not in a predicted functional domain, it could alter protein function thereby contributing to the observed phenotypic difference. Aside from <em>ppk-3</em>, we identified two additional candidate genes when assessing the functional description for the 34 genes with non-coding genetic variation. The first, <em>nhr-25</em>, encodes a nuclear hormone receptor orthologous to Ftz-F1 in Drosophila and is required for proper molting and developmental control <span class="citation">[<a href="references.html#ref-Asahina2000-zz" role="doc-biblioref">158</a>]</span>. We observed a splice-site variant in the <em>nhr-25</em> locus that could disrupt proper RNA splicing. Interestingly, disruption of <em>nhr-25</em> often causes embryonic arrest; however, mutants that survive hatching display a squat body stature (Dpy phenotype), suggesting that <em>nhr-25</em> could play a role in body size and shape <span class="citation">[<a href="references.html#ref-Gissendanner2000-hs" role="doc-biblioref">159</a>]</span>. The second, <em>bcat-1</em>, encodes a branched-chain amino acid aminotransferase that, by RNAi screens, is shown to be required for embryonic and larval development <span class="citation">[<a href="references.html#ref-Maeda2001-eo" role="doc-biblioref">160</a>]</span>. In the <em>bcat-1</em> locus we observe a variant in an intron and in the three prime untranslated region. Together, these results suggest that one or more genes on chromosome X are candidates that need additional study to explain the variation that we observe in animal growth.<br />
+</p>
+<p><strong>Table 3-2. Genes in QTL interval for chromosome X</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col width="18%" />
+<col width="34%" />
+<col width="19%" />
+<col width="16%" />
+<col width="10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><strong>No variation</strong><span class="math inline">\(^a\)</span></th>
+<th align="center"><strong>Protein-coding var and/or eQTL</strong><span class="math inline">\(^b\)</span></th>
+<th align="center"><strong>Non-coding var</strong><span class="math inline">\(^c\)</span></th>
+<th align="center"><strong>Other eQTL</strong><span class="math inline">\(^d\)</span></th>
+<th align="center"><strong>Total</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">96</td>
+<td align="center">21</td>
+<td align="center">34</td>
+<td align="center">17</td>
+<td align="center">168</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(^a\)</span>Genes within genomic interval with no genetic variation</p>
+<p><span class="math inline">\(^b\)</span>Genes within genomic interval with protein-coding variation and/or an eQTL that maps to this interval</p>
+<p><span class="math inline">\(^c\)</span>Genes within genomic interval with non-coding variation and no eQTL that maps to this interval</p>
+<p><span class="math inline">\(^d\)</span>Genes outside genomic interval with eQTL that maps to this interval</p>
+</div>
+</div>
+<div id="discussion-1" class="section level2" number="3.6">
+<h2><span class="header-section-number">3.6</span> Discussion</h2>
+<p>Here, we investigated larval growth of N2 and CB4856 animals from the L1 stage to the L4 stage. Although we observed similarities in the dynamics of growth, we also saw differences in the size of animals across developmental time. We used linkage mapping to investigate these differences and identified three small-effect QTL associated with variation in body size. Two QTL underlie variation in animal width, and a single non-overlapping QTL contributes to differences in animal length. Using NILs, we validated the width-associated QTL on chromosome X and identified candidate genes that could underlie variation in width. Taken together, our results demonstrate the power of leveraging natural genetic variation to examine the genetic architecture of complex traits such as body size and shape.</p>
+<div id="a-complex-genetic-architecture-underlies-differences-in-body-size" class="section level3" number="3.6.1">
+<h3><span class="header-section-number">3.6.1</span> A complex genetic architecture underlies differences in body size</h3>
+<p>As a complex life history trait, developmental growth could be influenced by several loci <span class="citation">[<a href="references.html#ref-Houle1992-vs" role="doc-biblioref">161</a>]</span>. In this study, we report three size-associated QTL. Strikingly, we find loci that decouple components of body size, revealing a complex genetic system that influences growth along different axes of the body. Evidence for genetically separate modules underlying distinct aspects of a single trait has been observed in studies of <em>C. elegans</em> behavioral patterns where linkage mapping studies using a panel of RIAILs (set 1, <span class="citation">[<a href="references.html#ref-Rockman2009-qy" role="doc-biblioref">154</a>]</span> ) identified distinct loci underlying separate aspects of avoidance response to thermal stimuli <span class="citation">[<a href="references.html#ref-Ghosh2015-bw" role="doc-biblioref">162</a>]</span>. Here, we identify distinct QTL for length and width, suggesting that different genetic mechanisms control animal growth along the length vs. width directions. This finding is particularly interesting given the differences in general growth dynamics of length compared to width that we found here (<strong>Figure 3-1</strong>) and previously <span class="citation">[<a href="references.html#ref-Nyaanga2022-zd" role="doc-biblioref">86</a>]</span> where we observe a simultaneous increase in length and decrease in width at the transition between larval stages.</p>
+<p>The results of the linkage mapping experiment identified two broad peaks on chromosomes IV and V associated with length and width respectively, as well as a narrow peak on chromosome X for width. Although we successfully validated the width-associated QTL on chromosome X (<strong>Figure 3-3</strong>), we were unable to validate the other two QTL (Figures S6 and S7). Our inability to recapitulate the results observed in the linkage mapping might be driven by several factors. First, many loci spread across the genome could underlie variation in body size. Under this polygenic model, any region can harbor variants driving our observed phenotypic difference through additive and/or non-additive effects. The contribution of polygenicity to phenotypic variance has previously been explored in <em>C. elegans</em>. Studies of fertility and body size in the <em>C. elegans</em> multiparental experimental evolution (CeMEE) panel found that a significant fraction of phenotypic variance, nearly 40% for fertility, can be explained by polygenicity <span class="citation">[<a href="references.html#ref-Noble2017-py" role="doc-biblioref">163</a>]</span>. Second, the intervals could contain QTL of opposing effects, making it difficult to recapitulate the results observed in the mapping using NILs. Notably, researchers have observed patterns of polygeny and antagonistic-effect loci when investigating <em>C. elegans</em> growth and reproduction in nickel stress <span class="citation">[<a href="references.html#ref-Bernstein2019-pq" role="doc-biblioref">164</a>]</span>. Third, it is possible that the QTL effects are smaller than 5% and we are underpowered to detect differences driven by these QTL in the CSSs and NILs.</p>
+</div>
+<div id="candidate-genes-for-variation-in-body-size" class="section level3" number="3.6.2">
+<h3><span class="header-section-number">3.6.2</span> Candidate genes for variation in body size</h3>
+<p>Genetic variants underlying complex traits are often elusive <span class="citation">[<a href="references.html#ref-Evans2021-zr" role="doc-biblioref">21</a>,<a href="references.html#ref-Rockman2012-pu" role="doc-biblioref">165</a>]</span>. Ultimately, when searching for QTL, we aim to identify genes contributing to the variation in phenotypes among individuals. Here, we identified candidate genes located in the interval of the chromosome X QTL (<strong>Table 2</strong>). However, complex traits, such as body size, are likely affected by many genes. For example, recent studies of human genetic variation using data from 5.4 million individuals report finding over 12,000 independent loci associated with height <span class="citation">[<a href="references.html#ref-Yengo2022-yw" role="doc-biblioref">166</a>]</span>. In the laboratory strain of <em>C. elegans</em>, we know many loci that quantitatively affect body size and shape. Mutations in these genes span various classes, including abnormal pharyngeal pumping (Eat), egg-laying defective (Egl), uncoordinated (Unc), abnormal dauer formation (Daf), and several cuticle and body shape classes (Dpy, Lon, Sma, Rol, Sqt) <span class="citation">[<a href="references.html#ref-So2011-ls" role="doc-biblioref">59</a>,<a href="references.html#ref-Morck2006-pl" role="doc-biblioref">167</a>,<a href="references.html#ref-Cho2021-xa" role="doc-biblioref">168</a>]</span>. The polygenic nature of complex traits is a recognized barrier in identifying the genes contributing to phenotypic variation in a population <span class="citation">[<a href="references.html#ref-Bernstein2019-pq" role="doc-biblioref">164</a>,<a href="references.html#ref-Boyle2017-bb" role="doc-biblioref">169</a>]</span>. However, we believe that molecular analysis of loci that underlie variation in development-associated traits in natural populations of <em>C. elegans</em> is essential to deciphering the evolutionary significance of developmental canalization.</p>
+</div>
+<div id="comparison-with-previous-qtl-studies-of-c.-elegans-growth" class="section level3" number="3.6.3">
+<h3><span class="header-section-number">3.6.3</span> Comparison with previous QTL studies of <em>C. elegans</em> growth</h3>
+<p>Our mapping results both recapitulate and expand upon previous QTL studies of growth in <em>C. elegans</em>. Previously, median body length of mixed-stage animals was mapped using the same panel of RIAILs (set 2) <span class="citation">[<a href="references.html#ref-Andersen2015-uj" role="doc-biblioref">114</a>]</span>. A single small-effect (5.7%) QTL in the center of chromosome IV was found, consistent with our findings. Also in this study, the authors mapped median body width (norm.EXT) to three QTL on chromosomes III, IV, and X. We detected an overlapping genomic region on chromosome X in our current study. Discrepancy in the other QTL is likely caused by differences in the body size assay as the previous study measured mixed-stage animals and we focused on synchronized L4 animals. Additionally, others have mapped variation in animal length for a collection of introgression lines produced from the N2 and CB4856 strains at 48 hours after L1 arrest <span class="citation">[<a href="references.html#ref-Snoek2014-tv" role="doc-biblioref">170</a>]</span>. Here, investigators found five separate QTL on chromosome IV affecting body size. This result suggests the presence of several independent loci on chromosome IV each contributing to variation in length. Further investigation is necessary to determine whether the overlapping genomic region detected in our current study is in fact separate loci that independently contribute to variation in animal length. Most recently, a group using a <em>C. elegans</em> RIL population identified 18 QTL influencing various body-size traits at a range of temperatures, with the majority clustering on chromosome X <span class="citation">[<a href="references.html#ref-Maulana2022-jy" role="doc-biblioref">171</a>]</span>. This work not only demonstrates the genetic complexity underlying body-size phenotypes, but also suggests the presence of co-regulatory loci underlying plasticity. <em>C. elegans</em> gives investigators a powerful system to better our understanding of the genetic mechanisms that shape growth and environmental sensitivity in natural populations.</p>
+</div>
+</div>
+<div id="contributions-1" class="section level2" number="3.7">
+<h2><span class="header-section-number">3.7</span> Contributions</h2>
+<p>This work was supported by the NSF-Simons Center for Quantitative Biology at Northwestern University. Dr. Erik Andersen, Dr. Gaotian Zhang, and Sophia Gibson assisted with the high-throughput sampling.</p>
+</div>
+<div id="supplement-1" class="section level2" number="3.8">
+<h2><span class="header-section-number">3.8</span> Supplement</h2>
+<p><img src="img/ch3/supp/S1Fig.png" width="95%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-1. Raw measurements of animal size.</strong> Raw COPAS BIOSORT of animal length (A) and width (B) for N2 and CB4856 objects are shown here. Each point represents an individual object that was measured.</p>
+<p><img src="img/ch3/supp/S2Fig.png" width="95%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-2. Mixture modeling of COPAS BIOSORT data was used to prune data.</strong> Mixture models of Gaussian distributions were fit to log transformed animal length (x-axis) and log transformed optical extinction (y-axis). Data from each hour of the experiment was analyzed and processed to remove clusters that did not include animal objects. Panels indicate experimental hours from which data were taken.</p>
+<p><img src="img/ch3/supp/S3Fig.png" width="95%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-3. Pruned measurements of animal size.</strong> COPAS BIOSORT data of animal length (A) and width (B) after the removal of non-animal objects using model-based clustering methods.</p>
+<p><img src="img/ch3/supp/S4Fig.png" width="100%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-4. Comparison of means across developmental time points.</strong> Tukey boxplots of mean length <strong>(A)</strong> and mean width <strong>(B)</strong> for N2 (orange) and CB4856 (blue) over developmental time. The horizontal line in the middle of the box is the median, and the box denotes the 25th to 75th quantiles of the data. The vertical line represents the 1.5 interquartile range. Inset plots magnify mean animal size measurements from hour 48. Each point corresponds to the mean of a population from each well. Statistical significance was calculated using a Wilcoxon test (ns = non-significant (<em>p</em>-value &gt; 0.05); *, **, ***, and **** = significant (<em>p</em>-value &lt; 0.05, 0.01, 0.001, or 0.0001, respectively).<br />
+<br />
+</p>
+<p><img src="img/ch3/supp/S5Fig.png" width="75%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-5. Two dimensional genome scan for mean animal length.</strong> Log of the odds (LOD) scores are shown for each pairwise combination of loci, split by chromosome. The upper-left triangle contains the epistasis LOD scores and the lower-right triangle contains the LOD scores for the full model. LOD scores are colored, increasing from purple to green to yellow. The LOD scores for the epistasis model are shown on the left of the color scale and the LOD scores for the full model are shown on the right.</p>
+<p><img src="img/ch3/supp/S6Fig.png" width="75%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-6. Two dimensional genome scan for mean animal width.</strong> Log of the odds (LOD) scores are shown for each pairwise combination of loci, split by chromosome. The upper-left triangle contains the epistasis LOD scores and the lower-right triangle contains the LOD scores for the full model. LOD scores are colored, increasing from purple to green to yellow. The LOD scores for the epistasis model are shown on the left of the color scale and the LOD scores for the full model are shown on the right.</p>
+<p><img src="img/ch3/supp/S7Fig.png" width="100%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-7. Validating the chromosome IV length-associated QTL.</strong> Strain genotypes are displayed as colored rectangles (N2: orange, CB4856: blue) for chromosome IV (left) and in general for the rest of the chromosomes (right). The solid vertical line represents the peak marker of the QTL. The dashed vertical lines represent the confidence interval. (B) Residual mean animal length (x-axis) is plotted as Tukey box plots against strain (y-axis). Statistical significance was calculated by Tukey’s HSD (ns = non-significant, p-value &gt; 0.05).</p>
+<p><img src="img/ch3/supp/S8Fig.png" width="100%"  style="display: block; margin: auto;" /></p>
+<p><strong>Figure S3-8. Validating the chromosome V width-associated QTL.</strong> Strain genotypes are displayed as colored rectangles (N2: orange, CB4856: blue) for chromosome V (left) and in general for the rest of the chromosomes (right). The solid vertical line represents the peak marker of the QTL. The dashed vertical lines represent the confidence interval. (B) Residual mean animal width (x-axis) is plotted as Tukey box plots against strain (y-axis). Statistical significance was calculated by Tukey’s HSD (ns = non-significant, p-value &gt; 0.05; * and *** = significant, p-value &lt; 0.05 or 0.001 respectively).</p>
+<div id="s3-1-text.-reagents-used-to-generate-csss-and-nils." class="section level4" number="3.8.0.1">
+<h4><span class="header-section-number">3.8.0.1</span> S3-1 Text. Reagents used to generate CSSs and NILs.</h4>
+<p><strong>RIAILs used:</strong></p>
+<p>QX49, QX59, QX61, QX62, QX72, QX78, QX85, QX115, QX123, QX134, QX144, QX160, QX161, QX175, QX226, QX227, QX231, QX240, QX241, QX242, QX243, QX244, QX245, QX248, QX250, QX252, QX253, QX254, QX258, QX261, QX263, QX264, QX265, QX266, QX267, QX268, QX269, QX270, QX271, QX272, QX273, QX274, QX275, QX276, QX277, QX278, QX279, QX280, QX281, QX282, QX283, QX284, QX285, QX286, QX287, QX288, QX289, QX290, QX291, QX293, QX294, QX295, QX296, QX297, QX298, QX299, QX300, QX301, QX302, QX303, QX304, QX305, QX306, QX307, QX309, QX310, QX311, QX314, QX315, QX316, QX318, QX319, QX320, QX321, QX322, QX323, QX324, QX325, QX326, QX327, QX328, QX329, QX330, QX331, QX332, QX333, QX334, QX335, QX336, QX337, QX338, QX339, QX340, QX341, QX343, QX345, QX346, QX347, QX348, QX349, QX350, QX352, QX353, QX354, QX355, QX356, QX357, QX358, QX359, QX360, QX361, QX362, QX363, QX364, QX365, QX366, QX367, QX368, QX369, QX370, QX371, QX372, QX373, QX374, QX375, QX376, QX377, QX378, QX379, QX380, QX381, QX382, QX383, QX384, QX385, QX386, QX387, QX390, QX391, QX392, QX393, QX394, QX395, QX396, QX397, QX398, QX399, QX400, QX401, QX402, QX403, QX404, QX405, QX406, QX407, QX408, QX409, QX410, QX411, QX412, QX413, QX414, QX416, QX417, QX418, QX419, QX420, QX421, QX423, QX424, QX426, QX427, QX428, QX429, QX430, QX431, QX432, QX433, QX434, QX435, QX436, QX437, QX438, QX439, QX440, QX441, QX443, QX444, QX445, QX446, QX447, QX448, QX449, QX450, QX451, QX452, QX453, QX454, QX455, QX456, QX457, QX458, QX459, QX460, QX461, QX463, QX464, QX465, QX466, QX467, QX468, QX469, QX470, QX471, QX472, QX473, QX474, QX475, QX476, QX477, QX478, QX479, QX480, QX481, QX482, QX483, QX484, QX485, QX486, QX487, QX488, QX489, QX490, QX491, QX492, QX493, QX494, QX495, QX496, QX497, QX498, QX500, QX501, QX503, QX506, QX508, QX511, QX512, QX513, QX514, QX515, QX517, QX520, QX521, QX523, QX524, QX525, QX526, QX527, QX528, QX529, QX530, QX531, QX533, QX534, QX538, QX539, QX540, QX542, QX545, QX549, QX550, QX551, QX553, QX554, QX555, QX556, QX557, QX559, QX560, QX561, QX563, QX564, QX565, QX570, QX572, QX573, QX574, QX579, QX580, QX583, QX585, QX587, QX588, QX594, QX596, QX597, QX598</p>
+<p><strong>Reagents to generate CSSs and NILs:</strong></p>
+<table>
+<colgroup>
+<col width="12%" />
+<col width="27%" />
+<col width="20%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Strain</strong></th>
+<th><strong>Genotype</strong></th>
+<th><strong>Constructed from</strong></th>
+<th><strong>Left primer</strong></th>
+<th><strong>Right primer</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ECA232</td>
+<td>eanIR152[V, CB4856&gt;N2]</td>
+<td>QX450xN2</td>
+<td>oECA799 &amp; oECA800</td>
+<td>oECA745 &amp; oECA746</td>
+</tr>
+<tr class="even">
+<td>ECA575</td>
+<td>eanIR324[IV, N2&gt;CB4856]</td>
+<td>N2xCB4856</td>
+<td>oECA1132 &amp;
+oECA1133</td>
+<td>oECA1135 &amp;
+oECA1136</td>
+</tr>
+<tr class="odd">
+<td>ECA597</td>
+<td>eanIR330[IV, CB4856&gt;N2]</td>
+<td>ECA231xN2</td>
+<td>oECA781 &amp; oECA782</td>
+<td>oECA857 &amp; oECA858</td>
+</tr>
+<tr class="even">
+<td>ECA599</td>
+<td>eanIR332[IV, N2&gt;CB4856]</td>
+<td>ECA598xCB4856</td>
+<td>oECA781 &amp; oECA782</td>
+<td>oECA857 &amp; oECA858</td>
+</tr>
+<tr class="odd">
+<td>ECA828</td>
+<td>eanIR359[X, N2&gt;CB4856]</td>
+<td>N2xCB4856</td>
+<td>oECA1313 &amp; oECA1314</td>
+<td>oECA1246 &amp; oECA1247</td>
+</tr>
+<tr class="even">
+<td>ECA929</td>
+<td>eanIR411[X, CB4856&gt;N2]</td>
+<td>N2xCB4856</td>
+<td>oECA1313 &amp; oECA1314</td>
+<td>oECA1246 &amp; oECA1247</td>
+</tr>
+<tr class="odd">
+<td>ECA1058</td>
+<td>eanIR433[V, N2&gt;CB4856]</td>
+<td>ECA1029xCB4856</td>
+<td>oECA1408 &amp; oECA1409</td>
+<td>oECA1341 &amp; oECA1342</td>
+</tr>
+<tr class="even">
+<td>ECA1060</td>
+<td>eanIR435[V, N2 &gt; CB4856]</td>
+<td>ECA554xCB4856</td>
+<td>oECA745 &amp; oECA746</td>
+<td>oECA763 &amp; oECA764</td>
+</tr>
+<tr class="odd">
+<td>ECA1064</td>
+<td>eanIR439[IV, CB4856&gt;N2]</td>
+<td>N2xCB4856</td>
+<td>oECA1131 &amp; oECA1132</td>
+<td>oECA1135 &amp; oECA1136</td>
+</tr>
+<tr class="even">
+<td>ECA2006</td>
+<td>eanIR446[V, CB4856&gt;N2]</td>
+<td>N2xCB4856</td>
+<td>oECA1141 &amp; oECA1142</td>
+<td>oECA1147 &amp; oECA1148</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Primers:</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Primer</strong></th>
+<th><strong>Genomic position</strong></th>
+<th><strong>Sequence</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>oECA745</td>
+<td>V:13,110,045</td>
+<td>tgcagaggtggagtaaccct</td>
+</tr>
+<tr class="even">
+<td>oECA746</td>
+<td>V:13,110,045</td>
+<td>ctcggtctctcccccactaa</td>
+</tr>
+<tr class="odd">
+<td>oECA763</td>
+<td>V:15,121,356</td>
+<td>cgcacattctttatttctggcg</td>
+</tr>
+<tr class="even">
+<td>oECA764</td>
+<td>V:15,121,356</td>
+<td>atcggccgtttttcacctga</td>
+</tr>
+<tr class="odd">
+<td>oECA781</td>
+<td>IV:5,110,734</td>
+<td>gagcactttggcgactttcg</td>
+</tr>
+<tr class="even">
+<td>oECA782</td>
+<td>IV:5,110,734</td>
+<td>tccgggcaaattagtgtggc</td>
+</tr>
+<tr class="odd">
+<td>oECA799</td>
+<td>V:7,862,556</td>
+<td>ttctcgctactggaacacgc</td>
+</tr>
+<tr class="even">
+<td>oECA800</td>
+<td>V:7,862,556</td>
+<td>tcaagaagcgttgggaagtct</td>
+</tr>
+<tr class="odd">
+<td>oECA1131</td>
+<td>IV:1,039,851</td>
+<td>tacccaccgcatcaaaacca</td>
+</tr>
+<tr class="even">
+<td>oECA1132</td>
+<td>IV:1,039,851</td>
+<td>acaggcgttcaaagacacca</td>
+</tr>
+<tr class="odd">
+<td>oECA1135</td>
+<td>IV:17,317,014</td>
+<td>tttcagacaggaaagcgcct</td>
+</tr>
+<tr class="even">
+<td>oECA1136</td>
+<td>IV:17,317,014</td>
+<td>gttgagagatccggaccgac</td>
+</tr>
+<tr class="odd">
+<td>oECA1141</td>
+<td>V:144,547</td>
+<td>ctcatgggagtaacctgggc</td>
+</tr>
+<tr class="even">
+<td>oECA1142</td>
+<td>V:144,547</td>
+<td>cggtgacaacggagaatcca</td>
+</tr>
+<tr class="odd">
+<td>oECA1147</td>
+<td>V:20,622,851</td>
+<td>gtttagtaccagcggggcat</td>
+</tr>
+<tr class="even">
+<td>oECA1148</td>
+<td>V:20,622,851</td>
+<td>tgcattccgacccaagagac</td>
+</tr>
+<tr class="odd">
+<td>oECA1246</td>
+<td>X:11,696,902</td>
+<td>tgcggtgggacttttcttgt</td>
+</tr>
+<tr class="even">
+<td>oECA1247</td>
+<td>X:11,696,902</td>
+<td>gtcccagcatgtaaccgtct</td>
+</tr>
+<tr class="odd">
+<td>oECA1313</td>
+<td>X:8,038,337</td>
+<td>gctgtgcaggactggatgta</td>
+</tr>
+<tr class="even">
+<td>oECA1314</td>
+<td>X:8,038,337</td>
+<td>tgctttctgatctgtgccgt</td>
+</tr>
+<tr class="odd">
+<td>oECA1341</td>
+<td>V:7,104,674</td>
+<td>cccatccccacaatgtttcg</td>
+</tr>
+<tr class="even">
+<td>oECA1342</td>
+<td>V:7,104,674</td>
+<td>aatcgacgagtggcacttgt</td>
+</tr>
+<tr class="odd">
+<td>oECA1408</td>
+<td>V:3,778,859</td>
+<td>cacgtgcccttttgcaatga</td>
+</tr>
+<tr class="even">
+<td>oECA1409</td>
+<td>V:3,778,859</td>
+<td>gagctcccggaaaactcgaa</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="a-role-for-cuticle-stretch-in-developmental-growth-control.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="easyxpress-an-r-package-to-analyze-and-visualize-c.-elegans-microscopy-data-generated-using-cellprofiler.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-thesis.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
