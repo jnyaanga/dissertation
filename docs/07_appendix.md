@@ -8,7 +8,7 @@ I had the pleasure of collaborating with members of the Mangan group in the Engi
 
 **Characterization of larval growth in *C. elegans* cuticle mutants**
 
-Joy Nyaanga, Sasha Shirman, Niall M. Mangan, and Erik C. Andersen
+Joy Nyaanga, Sasha Shirman, Niall M. Mangan, and Erik C. Andersen 
 
 ## Abstract {.unnumbered}
 
